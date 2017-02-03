@@ -1,0 +1,37 @@
+div.book-data{
+ padding-bottom:1em;
+}
+div.book-data>ul{
+ display:table-cell;
+ vertical-align:top;
+ min-height:180px;
+}
+div.book-data>a{
+ display:table-cell;
+ vertical-align:top;
+ margin-bottom:1em;
+}
+div.book-data img{
+ width:100px;
+}
+
+.side-list{
+ width:100px;
+ margin:0px;
+ padding:0px;
+ overflow:hidden;
+}
+.side-list img{
+ max-width:100px;
+}
+
+.side{
+ margin-top:24px;
+ padding:0px;
+}
+.side object{
+ margin:0px;
+ width:120px;
+ height:800px;
+ overflow:hidden;
+}

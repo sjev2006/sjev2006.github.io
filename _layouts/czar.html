@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+</head>
+<body>
+
+<div class="header">
+<a href="./">{{ site.home }}</a>&gt;{{ page.title }}
+</div>
+
+{% if page.side_image != Nil %}
+<div class="side"><img src="./img/{{ page.side_image }}"></div>
+{% endif %}
+
+<div class="main">
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<h2>目次紹介</h2>
+{% for itemi in site.data.czar %}
+<h3>{% if itemi.volume == 'ex' %}号外{% else %}第{{ itemi.volume }}号{% endif %} {{ itemi.date | date: '%Y年%-m月%-d日発行' }}</h3>
+<ul>{% for itemii in itemi.contents %}
+  <li>{{ itemii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+</ul>
+{% endfor %}
+
+</div>
+</body>
+</html>

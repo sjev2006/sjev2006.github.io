@@ -1,0 +1,258 @@
+body{
+ width: 650px;
+ margin: auto;
+ padding: 12px;
+ background-color: #fff;
+ color: #000;
+ text-align: left;
+ font: 13px/20px Verdana, Helvetica, sans-serif;
+}
+
+h1{
+ clear: both;
+ margin: 24px auto;
+ text-align: center;
+ font: bold 24px/24px 'Palatino Linotype', Palatino, serif;
+}
+h1 span.title-ja{
+}
+h1 span.title-fr{
+ font-size: 16px;
+}
+h1 span.subtitle{
+ font-size: 16px;
+ font-weight: normal;
+}
+h2{
+ clear: both;
+ margin: 18px auto;
+ padding-bottom: 4px;
+ border-bottom: solid 2px #48c;
+ font: bold 18px/22px 'Palatino Linotype', Palatino, serif;
+}
+h3{
+ clear: both;
+ margin: 6px auto;
+ padding-left: 4px;
+ border-left: solid 4px #48c;
+ font: bold 16px/20px Verdana, Helvetica, sans-serif;
+}
+h3.empty{
+ border-left: none;
+ border-bottom: dotted 2px #48c;
+}
+h4{
+ clear: both;
+ font: bold 15px/19px Verdana, Helvetica, sans-serif;
+}
+h5{
+ clear: both;
+ font: bold 14px/18px Verdana, Helvetica, sans-serif;
+}
+h6{
+ clear: both;
+ font: bold 13px/17px Verdana, Helvetica, sans-serif;
+}
+
+div{
+ clear: both;
+ maring: 0px;
+}
+div.right{
+ float: right;
+}
+div.left{
+ float: left;
+}
+div.main{
+ float: right;
+ clear: none;
+ width: 500px;
+ margin: 0px 0px 12px 0px;
+}
+div.contents h2{
+ clear: none;
+ width: 250px;
+ margin: 0px 0px 18px;
+}
+div.contents ul{
+ clear: none;
+ width: 250px;
+}
+div.figure{
+ float: right;
+ clear: none;
+ min-width: 100px;
+ margin: 0px 0px 18px 18px;
+ text-align: right;
+}
+
+div.mirror{
+ width: 360px;
+ margin: 24px 0px;
+ border: solid 2px #48c;
+ border-radius: 10px;
+ background-color: #def;
+}
+div.mirror object{
+ width: 350px;
+ height: 200px;
+ margin: 5px;
+}
+div.side{
+ float: left;
+ margin-top: 24px;
+}
+.side{
+ width: 100px;
+ height: 480px;
+ margin: 0px;
+ padding: 0px;
+ overflow: hidden;
+}
+.side img{
+ width: 100px;
+ height: 480px;
+}
+.side object{
+ width: 100px;
+ height: 480px;
+ maring: 0px;
+ padding: 0px;
+}
+.sidelist{
+ width: 100px;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+ overflow-y: hidden;
+}
+.sidelist ul{
+ width: 117px;
+ height: 1232px;
+ padding: 0px;
+ padding-right: 17px;
+ list-style-type: none;
+ overflow-y: scroll
+}
+.sidelist img{
+ width: 100px;
+ height: 144px;
+ margin-bottom: 10px;
+}
+.sidelist object{
+ width: 100px;
+ height: 1232px;
+ maring: 0px;
+ padding: 0px;
+}
+div.sidelist{
+ float: left;
+ width: 100px;
+ margin-top: 24px;
+ overflow: hidden;
+}
+
+h1+blockquote{
+ margin: 20px 0px 20px 2em;
+ padding: 0px 5px 0px 8px;
+ background-color: #eef;
+ border-left: solid 4px #48c;
+}
+h1+blockquote p:last-child{
+ text-align: right;
+}
+
+p{
+ margin: 10px 0px;
+ text-align: justify;
+}
+p.signature{
+ text-align: right;
+ font-weight: bold;
+}
+
+em{
+ text-decoration: none;
+ font-weight: normal;
+ font-style: italic;
+}
+strong{
+ text-decoration: none;
+ color: red;
+ font-weight: bold;
+ font-style: normal;
+}
+a{
+ text-decoration: none;
+}
+a:link{
+ color: #22a;
+}
+a:visited{
+ color: #626;
+}
+a:hover{
+ text-decoration: underline;
+}
+
+ul, ol{
+ margin: 0px 0px 13px 0px;
+ padding-left: 2em;
+}
+ul.signature{
+ text-align: right;
+ list-style-type: none;
+}
+dl{
+ margin: 0px 0px 13px 0px;
+ padding: 0px;
+}
+ul ul, ul ol, ol ul, ol ol{
+ margin: 0px;
+}
+li{
+ margin: 0px;
+ padding: 0px;
+}
+dt{
+ display: inline;
+ margin: 0px;
+ font-weight: normal;
+}
+dd{
+ display: inline;
+ margin: 0px;
+}
+
+pre{
+ font-family: monospace;
+}
+img{
+ vertical-align: middle;
+ border-width: 0px;
+}
+img.right{
+ float: right;
+ clear: none;
+ min-width: 100px;
+ margin: 0px 0px 18px 18px;
+ text-align: right;
+}
+hr{
+ color: #48c;
+}
+
+.left{
+ text-align: left;
+}
+.right{
+ text-align: right;
+}
+.center{
+ text-align: center;
+}
+
+span.punct{
+ white-space: nowrap;
+}

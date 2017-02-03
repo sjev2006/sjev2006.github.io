@@ -1,0 +1,21 @@
+.side{width:100px;height:1242px;}/* 144*8+10*(8+1)=1242 */
+.side img{width:100px;height:144px;}
+.side object{width:100px;height:1242px;}
+
+.side{margin:0px;}
+div.side{margin:24px 0px 0px 0px;}
+.side object{maring:0px;}
+
+.side{padding:0px;}
+.side object{padding:0px;}
+
+.side{overflow:hidden;}
+
+ul.colophon{margin:0px;}
+ul.colophon{width:350px;}
+ul.colophon{min-height:150px;}
+ul.colophon{float:left;}
+
+h3 span.title-ja{}
+h3 span.title-fr{font-size:13px;}
+

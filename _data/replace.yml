@@ -1,0 +1,30 @@
+- before: '＝'
+  after: "&#x30A0;"
+
+- before: ' />'
+  after: '/>'
+
+- before: ' /'
+  after: '<span class="punct"> /</span>'
+
+- before: ' :'
+  after: '<span class="punct"> :</span>'
+
+- before: ' ;'
+  after: '<span class="punct">&thinsp;;</span>'
+
+- before: ' ?'
+  after: '<span class="punct">&thinsp;?</span>'
+
+- before: ' !'
+  after: '<span class="punct">&thinsp;!</span>'
+
+- before: ' ...'
+  after: '<span class="punct"> &hellip;</span>'
+
+- before: '&laquo; '
+  after: '<span class="punct">&laquo; </span>'
+
+- before: ' &raquo;'
+  after: '<span class="punct"> &raquo;</span>'
+

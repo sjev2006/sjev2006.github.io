@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+</head>
+<body>
+
+{% capture html %}
+<div class="header">
+<a href="./">{{ site.home }}</a>&gt;<a href="./excelsior.html">会誌「Excelsior!」</a>&gt;{{ page.title }}
+</div>
+
+<div class="sidelist">
+<object data="./excelsior-list.html"></object>
+</div>
+
+<div class="main">
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+{% assign vol = page.volume | prepend: 'vol' %}
+{% for itemi in site.data.volume[vol]['part'] %}
+{% if itemi.title != Nil %}
+<h3><span class="title-ja">{{ itemi.title[0].ja }}</span>{% if itemi.title[0].fr != Nil %}<br/>
+<span class="title-fr">{{ itemi.title[0].fr }}</span>{% endif %}</h3>{% endif %}
+{% for itemii in itemi.article %}{% if itemii.author == Nil %}
+<p>{{ itemii.title[0].ja }} {{ itemii.page }}<br/>
+{{ itemii.title[0].fr }}</p>
+{% elsif itemii.title[0].fr == Nil %}
+<p>{{ itemii.title[0].ja }} {{ itemii.author[0].ja }} {{ itemii.page }}</p>
+{% else %}
+<p>{{ itemii.title[0].ja }} {{ itemii.author[0].ja }} {{ itemii.page }}<br/>
+{{ itemii.title[0].fr }} / {{ itemii.author[0].fr }}</p>
+{% endif %}{% endfor %}{% endfor %}
+</div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
+</body>
+</html>

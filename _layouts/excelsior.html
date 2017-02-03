@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+</head>
+<body>
+
+<div class="header">
+<a href="./">{{ site.home }}</a>&gt;{{ page.title }}
+</div>
+
+<div class="sidelist">
+<object data="./excelsior-list.html"></object>
+</div>
+
+<div class="main">
+<h1>{{ page.title }}</h1>
+
+{% assign components = page.content | markdownify | split: site.insertion %}
+
+{{ components.first }}
+
+{% assign stats = 'future|current|past' | split: '|' %}
+{% for item in stats %}
+<h2>{{ page[item] }}</h2>
+{% for itemi in site.data.excelsior[item] %}
+{% if itemi.volume == 1 %}{% assign vol = '創刊号' %}{% else %}{% assign vol = itemi.volume | prepend: '第' | append: '号' %}{% endif %}
+<h3>{{ vol }} {{ itemi.date | date: '%Y年%-m月%-d日発行' }}</h3>
+<ul>{% for itemii in itemi.contents %}
+  <li>{{ itemii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+  {% if item != 'future' %}<li><a href="./excelsior-vol{{ itemi.volume }}.html">「Excelsior!」{{ vol }}目次</a></li>{% endif %}
+</ul>
+{% endfor %}
+{% endfor %}
+
+{{ components.last }}
+
+</div>
+</body>
+</html>

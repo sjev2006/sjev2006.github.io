@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+<title>{{ page.title }}</title>
+</head>
+<body>
+
+<div class="side"><img src="./img/{{ page.side_image }}"></div>
+
+<div class="main">
+<h1>
+<span class="title-ja">{{ page.title }}</span><br>
+<span class="title-fr">{{ page.title_fr }}</span><br>
+<span class="subtitle">{{ page.subtitle_fr }}</span>
+</h1>
+
+<div class="contents">
+{{ content }}
+</div>
+
+<div class="updates">
+<h2>新着情報</h2>
+<ul>{% for itemi in site.data.index %}{% case prev_date %}{% when Nil %}
+  <li>{{ itemi.date }}
+    <ul>
+      <li>{{ itemi.summary }}
+        <ul>{% for itemii in itemi.detail %}
+          <li>{{ itemii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+        </ul>
+      </li>{% when itemi.date %}
+      <li>{{ itemi.summary }}
+        <ul>{% for itemii in itemi.detail %}
+          <li>{{ itemii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+        </ul>
+      </li>{% else %}
+    </ul>
+  </li>
+  <li>{{ itemi.date }}
+    <ul>
+      <li>{{ itemi.summary }}
+        <ul>{% for itemii in itemi.detail %}
+          <li>{{ itemii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+        </ul>
+      </li>{% endcase %}{% assign prev_date = itemi.date %}{% endfor %}
+    </ul>
+  </li>
+</ul>
+</div>
+
+<div class="mirror">
+<object data="./vernolog.cgi"></object>
+</div>
+
+</div>
+
+</body>
+</html>

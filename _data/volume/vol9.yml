@@ -1,0 +1,94 @@
+part:
+- article:
+  - title:
+    - ja: 本邦初訳：理想の都市——西暦二〇〇〇年のアミアン
+      fr: "Une Ville id&eacute;ale : Amiens en l&rsquo;an 2000"
+    author:
+    - fr: "Jules Verne"
+    page: 4
+
+- title:
+  - ja: 小特集：ヴィルヘルム・シュトーリッツの秘密
+    fr: "Le Secret de Wilhelm Storitz"
+
+  article:
+  - title:
+    - ja: 読書会『ヴィルヘルム・シュトーリッツの秘密』
+      fr: "Table ronde : lire Le Secret de Wilhelm Storitz"
+    page: 32
+
+  - title:
+    - ja: 亡霊たちの嬉遊曲
+      fr: "Divertimento pour les fant&ocirc;mes"
+    author:
+    - ja: 島村山寝
+      fr: "Shimamura Sanshin"
+    page: 72
+
+  - title:
+    - ja: ［特別寄稿］『ヴィルヘルム・シュトーリッツの秘密』と『透明人間』
+      fr: "Le Secret de Wilhelm Storitz et L&rsquo;Homme invisible"
+    author:
+    - ja: 小澤正人
+      fr: "Ozawa Masato"
+    page: 94
+
+- title:
+  - ja: 自由投稿
+    fr: "Contributions diverses"
+
+  article:
+  - title:
+    - ja: プルーストと『海底二万里』——あるいは「冒険小説」としての『失われた時を求めて』
+      fr: "Proust et Vingt mille lieues sous les mers ou A la recherche du temps perdu comme roman d&rsquo;aventures"
+    author:
+    - ja: 荒原邦博
+      fr: "Arahara Kunihiro"
+    page: 102
+
+  - title:
+    - ja: スタンダールとヴェルヌ
+      fr: "Stendhal et Verne"
+    author:
+    - ja: 新須憲一
+      fr: "Shinsu Kenichi"
+    page: 124
+
+  - title:
+    - ja: ヴェルヌと超常事件
+      fr: "Verne et les affaires paranormales"
+    author:
+    - ja: 幕田けいた
+      fr: "Makuta Keita"
+    page: 126
+
+  - title:
+    - ja: 「ジュール・ヴェルヌはなぜ〈SFの父〉と呼ばれるのか」をめぐるメモランダム
+      fr: "Notes sur la question de savoir pourquoi Jules Verne est appel&eacute; &ldquo;le p&egrave;re de la SF&rdquo;"
+    author:
+    - ja: 島村山寝
+      fr: "Shimamura Sanshin"
+    page: 132
+
+  - title:
+    - ja: 明治ヴェルヌ評判記——月世界旅行／月世界一周編 藤元直樹
+      fr: "Fortune de Verne &agrave; l&rsquo;&egrave;re Meiji : De la Terre &agrave; la Lune et Autour de la Lune"
+    page: 147
+
+  - title:
+    - ja: 六助とソランジュの「魅惑のヴェルヌ」 いかにして、われわれは〈驚異の旅〉日本語版を実現させるか？ 第四回——『クロヴィス・ダルダントール』と『トンプソン旅行代理店』
+      fr: "Les Verne non traduits : Comment r&eacute;alisons-nous la version jaoponaise de la collection compl&egrave;te des &ldquo;Voyages extraordinaires&rdquo; ? 4. Clovis Dardantor et L&rsquo;Agence Thompson and Co."
+    author:
+    - ja: ソランジュと六助
+      fr: "Locusuke et Solange"
+    page: 162
+
+  - title:
+    - ja: 入会案内・活動報告
+      fr: "Adh&eacute;sion ; La vie de l&rsquo;association"
+    page: 181
+
+  - title:
+    - ja: 編集後記
+      fr: "Editorial"
+    page: 182

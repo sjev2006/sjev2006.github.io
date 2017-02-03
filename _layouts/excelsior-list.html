@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+<base target="_parent">
+</head>
+<body class="sidelist">
+<ul>
+{% for i in (1..page.latest) %}
+{% assign j = page.latest | plus: 1 | minus: i %}
+<li><a href="./excelsior-vol{{ j }}.html"><img src="./img/excelsior{{ j }}s.jpg"></a></li>
+{% endfor %}
+</ul>
+</body>
+</html>
