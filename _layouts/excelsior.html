@@ -29,23 +29,21 @@
   <p>{{ itemi }}</p>{% endfor %}
   <p>──『{{ epiarray.source }}』</p>
 </blockquote>
-{% endif %)
+{% endif %}
 
 {% assign components = page.content | markdownify | split: site.insertion %}
 {{ components.first }}
 
-{% assign stats = 'future|current|past' | split: '|' %}
-{% for item in stats %}
-<h2>{{ page[item] }}</h2>
-{% for itemi in site.data.excelsior[item] %}
-{% if itemi.volume == 1 %}{% assign vol = '創刊号' %}{% else %}{% assign vol = itemi.volume | prepend: '第' | append: '号' %}{% endif %}
-<h3>{{ vol }} {{ itemi.date | date: '%Y年%-m月%-d日発行' }}</h3>
-<ul>{% for itemii in itemi.contents %}
-  <li>{{ itemii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
-  {% if item != 'future' %}<li><a href="./excelsior-vol{{ itemi.volume }}.html">「Excelsior!」{{ vol }}目次</a></li>{% endif %}
-</ul>
-{% endfor %}
-{% endfor %}
+{% assign catarray = site.data.excelsior.category %}
+{% for itemi in catarray %}
+<h2>{{ itemi.last }}</h2>
+{% assign catname = catarray[0] %}{% for itemii in site.data.excelsior[itemi.first] %}{% if itemii.volume == 1 %}{% assign vol = '創刊号' %}{% else %}{% assign vol = itemii.volume | prepend: '第' | append: '号' %}{% endif %}
+<h3>{{ vol }} {{ itemii.date | date: '%Y年%-m月%-d日発行' }}</h3>{% if itemii.contents %}
+<ul>{% for itemiii in itemii.contents %}
+  <li>{{ itemiii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+  {% if itemi.first != 'future' %}<li><a href="./excelsior-vol{{ itemii.volume }}.html">「Excelsior!」{{ vol }}目次</a></li>{% endif %}
+</ul>{% endif %}
+{% endfor %}{% endfor %}
 
 {{ components.last }}
 

@@ -1,3 +1,7 @@
+category:
+  future: 予定されている会合 
+  past: 終了した会合
+
 future:
 - title: 第11回総会及び「Excelsior!」第11号合評会
   detail:

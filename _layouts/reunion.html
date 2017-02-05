@@ -33,17 +33,17 @@
 
 {{ content }}
 
-{% assign stats = 'future|past' | split: '|' %}
-{% for item in stats %}
-<h2>{{ page[item] }}</h2>
-{% for itemi in site.data.reunion[item] %}
-<h3>{{ itemi.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</h3>
-{% if itemi.summary %}{{ itemi.summary | markdownify | strip_newlines }}{% endif %}
-<ul>{% for itemii in itemi.detail %}{% assign arrayii = itemii | newline_to_br | strip_newlines | split: '<br />' %}{% assign n = arrayii.size | minus: 1 %}{% if n == 0 %}
-  <li>{{ arrayii[0] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% else %}
-  <li>{{ arrayii[0] }}
+{% assign catarray = site.data.reunion.category %}
+{% for itemi in catarray %}
+<h2>{{ itemi.last }}</h2>
+{% assign catname = catarray[0] %}{% for itemii in site.data.reunion[itemi.first] %}
+<h3>{{ itemii.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</h3>
+{% if itemii.summary %}{{ itemii.summary | markdownify | strip_newlines }}{% endif %}
+<ul>{% for itemiii in itemii.detail %}{% assign arrayiii = itemiii | newline_to_br | strip_newlines | split: '<br />' %}{% assign n = arrayiii.size | minus: 1 %}{% if n == 0 %}
+  <li>{{ arrayiii[0] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% else %}
+  <li>{{ arrayiii[0] }}
     <ul>{% for i in (1..n) %}
-      <li>{{ arrayii[i] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+      <li>{{ arrayiii[i] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
     </ul>
   </li>{% endif %}{% endfor %}
 </ul>
