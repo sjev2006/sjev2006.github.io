@@ -1,88 +1,87 @@
-part:
-- title:
+category:
+  dossier:
   - ja: 特集：『ガン・クラブ三部作』
     fr: "Dossier : La trilogie du Gun-Club"
-
-  article:
-  - title:
-    - ja: 読書会「月世界二部作」
-      fr: "Table ronde : relire Le diptyque lunaire"
-    page: 4
-
-  - title:
-    - ja: 月——身近な宇宙への旅
-      fr: "Voyage &agrave; la Lune, notre prochain voisin c&eacute;leste"
-    author:
-    - ja: 新須憲一
-      fr: "Shinsu Kenichi"
-    page: 36
-
-  - title:
-    - ja: 月のあるき方
-      fr: "Guide touristique pour les lune-trotters"
-    author:
-    - ja: 植草康浩
-      fr: "Uekusa Yasuhiro"
-    page: 39
-
-  - title:
-    - ja: ガン・クラブ三部作と〈現代性〉試論
-      fr: "Essai sur la trilogie du Gun-club et la &ldquo;modernit&eacute;&rdquo;"
-    author:
-    - ja: 島村山寝
-      fr: "Shimamura Sanshin"
-    page: 58
-
-  - title:
-    - ja: 明治日本版〈地軸変更計画〉「地軸すげ換」——科学小説家としての塩田力蔵
-      fr: "Une version japanaise de Sans dessus dessous : Rikizo Shiota, romancier scientifique"
-    author:
-    - ja: 藤元直樹
-      fr: "Fujimoto Naoki"
-    page: 82
-
-- title:
+  divers:
   - ja: 自由投稿
 
-  article:
-  - title:
-    - ja: 「ジュール・ヴェルヌ未発表歌曲集」日本版ライナー
-      fr: "M&eacute;lodies in&eacute;dites de Jules Verne : Commentaire et traduction en japonais"
-    author:
-    - ja: 倉方健作＋成田麗奈
-      fr: "Kurakata Kensaku + Naruta Reina"
-    page: 88
+dossier:
+- title:
+  - ja: 読書会「月世界二部作」
+    fr: "Table ronde : relire Le diptyque lunaire"
+  page: 4
 
-  - title:
-    - ja: 日本ヴェルヌ映像コレクション（番外編）
-      fr: "Collection de versions cin&eacute;matographiques japonaises des oeuvres verniennes (&eacute;pisode hors-s&eacute;rie)"
-    author:
-    - ja: 幕田けいた
-      fr: "Makuta Keita"
-    page: 123
+- title:
+  - ja: 月——身近な宇宙への旅
+    fr: "Voyage &agrave; la Lune, notre prochain voisin c&eacute;leste"
+  author:
+  - ja: 新須憲一
+    fr: "Shinsu Kenichi"
+  page: 36
 
-  - title:
-    - ja: ［特別寄稿］起源の中の起源——真のヴェルヌを求めて ウィリアム・ブッチャー 翻訳
-      fr: "L&rsquo;Origine des origines : &Agrave; la recherche du Verne authentique"
-    author:
-    - ja: 石橋正孝
-      fr: "William Butcher"
-    page: 126
+- title:
+  - ja: 月のあるき方
+    fr: "Guide touristique pour les lune-trotters"
+  author:
+  - ja: 植草康浩
+    fr: "Uekusa Yasuhiro"
+  page: 39
 
-  - title:
-    - ja: 六助とソランジュの「魅惑のヴェルヌ」 いかにして、われわれは〈驚異の旅〉日本語版を実現させるか？ 第二回——『変人の遺言』
-      fr: "Les Verne non traduits : Comment r&eacute;alisons-nous la version jaoponaise de la collection compl&egrave;te des &ldquo;Voyages extraordinaires&rdquo; ? 2. Le testament d&rsquo;un excentrique"
-    author:
-    - ja: ソランジュと六助
-      fr: "Locusuke et Solange"
-    page: 148
+- title:
+  - ja: ガン・クラブ三部作と〈現代性〉試論
+    fr: "Essai sur la trilogie du Gun-club et la &ldquo;modernit&eacute;&rdquo;"
+  author:
+  - ja: 島村山寝
+    fr: "Shimamura Sanshin"
+  page: 58
 
-  - title:
-    - ja: 入会案内・活動報告
-      fr: "Adh&eacute;sion ; La vie de l&rsquo;association"
-    page: 165
+- title:
+  - ja: 明治日本版〈地軸変更計画〉「地軸すげ換」——科学小説家としての塩田力蔵
+    fr: "Une version japanaise de Sans dessus dessous : Rikizo Shiota, romancier scientifique"
+  author:
+  - ja: 藤元直樹
+    fr: "Fujimoto Naoki"
+  page: 82
 
-  - title:
-    - ja: 編集後記
-      fr: "Editorial"
-    page: 166
+divers:
+- title:
+  - ja: 「ジュール・ヴェルヌ未発表歌曲集」日本版ライナー
+    fr: "M&eacute;lodies in&eacute;dites de Jules Verne : Commentaire et traduction en japonais"
+  author:
+  - ja: 倉方健作＋成田麗奈
+    fr: "Kurakata Kensaku + Naruta Reina"
+  page: 88
+
+- title:
+  - ja: 日本ヴェルヌ映像コレクション（番外編）
+    fr: "Collection de versions cin&eacute;matographiques japonaises des oeuvres verniennes (&eacute;pisode hors-s&eacute;rie)"
+  author:
+  - ja: 幕田けいた
+    fr: "Makuta Keita"
+  page: 123
+
+- title:
+  - ja: ［特別寄稿］起源の中の起源——真のヴェルヌを求めて ウィリアム・ブッチャー 翻訳
+    fr: "L&rsquo;Origine des origines : &Agrave; la recherche du Verne authentique"
+  author:
+  - ja: 石橋正孝
+    fr: "William Butcher"
+  page: 126
+
+- title:
+  - ja: 六助とソランジュの「魅惑のヴェルヌ」 いかにして、われわれは〈驚異の旅〉日本語版を実現させるか？ 第二回——『変人の遺言』
+    fr: "Les Verne non traduits : Comment r&eacute;alisons-nous la version jaoponaise de la collection compl&egrave;te des &ldquo;Voyages extraordinaires&rdquo; ? 2. Le testament d&rsquo;un excentrique"
+  author:
+  - ja: ソランジュと六助
+    fr: "Locusuke et Solange"
+  page: 148
+
+- title:
+  - ja: 入会案内・活動報告
+    fr: "Adh&eacute;sion ; La vie de l&rsquo;association"
+  page: 165
+
+- title:
+  - ja: 編集後記
+    fr: "Editorial"
+  page: 166

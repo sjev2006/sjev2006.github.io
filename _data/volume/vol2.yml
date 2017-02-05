@@ -1,8 +1,12 @@
-part:
-- title:
+category:
+  dossier:
   - ja: 特集：『地球の中心への旅』への旅
+  divers:
+  - ja: 自由投稿
+  traduction:
+  - ja: 翻訳評論・連載翻訳およびその周辺
 
-  article:
+dossier:
   - title:
     - ja: 『地球の中心への旅』の世界
     author:
@@ -61,10 +65,7 @@ part:
     - ja: ルネ・ド・ポン＝ジェスト
     page: 86
 
-- title:
-  - ja: 自由投稿
-
-  article:
+divers:
   - title:
     - ja: 『神秘の島』の魅力
     author:
@@ -89,10 +90,7 @@ part:
     - ja: 芳川泰久
     page: 138
 
-- title:
-  - ja: 翻訳評論・連載翻訳およびその周辺
-
-  article:
+traduction:
   - title:
     - ja: 『グラント船長の子供たち』の中のシャーロック・ホームズ
     author:

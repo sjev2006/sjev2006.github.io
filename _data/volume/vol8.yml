@@ -1,134 +1,132 @@
-part:
-- title:
+category:
+  dossier1:
   - ja: 特集：『蒸気で動く家』
     fr: "Dossier I : La Maison &agrave; vapeur"
-
-  article:
-  - title:
-    - ja: 読書会『蒸気で動く家』
-      fr: "Table ronde : relire La Maison &agrave; vapeur"
-    page: 4
-
-  - title:
-    - ja: 蒸気で動く家（『冒険小説論』より）
-      fr: "&ldquo;La Maison &agrave; vapeur&rdquo;（Le roman d&rsquo;aventures）"
-    author:
-    - ja: ジャン＝イヴ・タディエ
-      fr: "Jean-Yves Tadi&eacute;"
-    page: 36
-
-  - title:
-    - ja: 蒸気で動く女と象、そして家
-      fr: "La Lison, la maison &agrave; vapeur et la maison roulante"
-    author:
-    - ja: 新島進
-      fr: "Niijima Susumu"
-    page: 48
-
-  - title:
-    - ja: なめらかな物語とその蒸気
-      fr: "R&eacute;cit qui coule sans heurts et sa vapeur motrice"
-    author:
-    - ja: 島村山寝
-      fr: "Shimamura Sanshin"
-    page: 55
-
-  - title:
-    - ja: 蒸気のちから
-      fr: "Puissance de la vapeur"
-    author:
-    - ja: 植草康浩
-      fr: "Uekusa Yasuhiro"
-    page: 79
-
-  - title:
-    - ja: 「蒸気の家』大正版「踏破る千山万岳の煙」の著者広田花崖をめぐって
-      fr: "Autour de Kagai Hirota, auteur d&rsquo;une adaptation de La Maison &agrave; vapeur &agrave; l&rsquo;&egrave;re Taisho"
-    author:
-    - ja: 藤元直樹
-      fr: "Fujimoto Naoki"
-    page: 91
-
-- title:
+  dossier2:
   - ja: 第2特集：エッツェル生誕二百年
     fr: "Dossier II : Bicentenaire de la naissacne de Pierre-Jules Hetzel"
-
-  article:
-  - title:
-    - ja: 十九世紀の百科全書派、バルザックとヴェルヌ
-      fr: "Balzac et Verne, deux encyclop&eacute;distes au XIXe si&egrave;cle"
-    author:
-    - ja: 私市保彦
-      fr: "Kisaichi Yasuhiko"
-    page: 108
-
-  - title:
-    - ja: エッツェル、ラクロワ、ユゴー
-      fr: "Hetzel, Lacroix, Hugo"
-    author:
-    - ja: 石橋正孝
-      fr: "Ishibashi Masataka"
-    page: 114
-
-  - title:
-    - ja: ［特別寄稿］ジョルジュ・サンドとエッツェル——三十年にわたる友情
-      fr: "George Sand et Hetzel : trente ann&eacute;es d&rsquo;amiti&eacute;"
-    author:
-    - ja: 村田京子
-      fr: "Murata Kyoko"
-    page: 125
-
-- title:
+  divers:
   - ja: 自由投稿
     fr: "Contributions diverses"
 
-  article:
-  - title:
-    - ja: 読書記録カード
-      fr: "Carnet de lecture"
-    author:
-    - ja: 新島遊
-      fr: "Niijima Yu"
-    page: 146
+dossier1:
+- title:
+  - ja: 読書会『蒸気で動く家』
+    fr: "Table ronde : relire La Maison &agrave; vapeur"
+  page: 4
 
-  - title:
-    - ja: ジュール・ヴェルヌの風は何処に行く
-      fr: "O&ugrave; va donc le vent vernien ?"
-    author:
-    - ja: 新須憲一
-      fr: "Shinsu Kenichi"
-    page: 147
+- title:
+  - ja: 蒸気で動く家（『冒険小説論』より）
+    fr: "&ldquo;La Maison &agrave; vapeur&rdquo;（Le roman d&rsquo;aventures）"
+  author:
+  - ja: ジャン＝イヴ・タディエ
+    fr: "Jean-Yves Tadi&eacute;"
+  page: 36
 
-  - title:
-    - ja: ヴェルヌと未知の怪物たち
-      fr: "Verne et monstres non identifi&eacute;s"
-    author:
-    - ja: 幕田けいた
-      fr: "Makuta Keita"
-    page: 151
+- title:
+  - ja: 蒸気で動く女と象、そして家
+    fr: "La Lison, la maison &agrave; vapeur et la maison roulante"
+  author:
+  - ja: 新島進
+    fr: "Niijima Susumu"
+  page: 48
 
-  - title:
-    - ja: 「事件」としての書物——『〈驚異の旅〉または出版をめぐる冒険』読解へ向けて
-      fr: "Livre comme &ldquo;&eacute;v&eacute;nement&rdquo; : pour une lecture des Voyages extraordinares ou aventures &eacute;ditoriales"
-    author:
-    - ja: 島村山寝
-      fr: "Shimamura Sanshin"
-    page: 156
+- title:
+  - ja: なめらかな物語とその蒸気
+    fr: "R&eacute;cit qui coule sans heurts et sa vapeur motrice"
+  author:
+  - ja: 島村山寝
+    fr: "Shimamura Sanshin"
+  page: 55
 
-  - title:
-    - ja: 六助とソランジュの「魅惑のヴェルヌ」 いかにして、われわれは〈驚異の旅〉日本語版を実現させるか？ 第三回——『空中の村』
-      fr: "Les Verne non traduits : Comment r&eacute;alisons-nous la version jaoponaise de la collection compl&egrave;te des &ldquo;Voyages extraordinaires&rdquo; ? 3. Le village a&eacute;rien"
-    author:
-    - ja: ソランジュと六助
-      fr: "Locusuke et Solange"
-    page: 171
+- title:
+  - ja: 蒸気のちから
+    fr: "Puissance de la vapeur"
+  author:
+  - ja: 植草康浩
+    fr: "Uekusa Yasuhiro"
+  page: 79
 
-  - title:
-    - ja: 入会案内・活動報告
-      fr: "Adh&eacute;sion ; La vie de l&rsquo;association"
-    page: 187
+- title:
+  - ja: 「蒸気の家』大正版「踏破る千山万岳の煙」の著者広田花崖をめぐって
+    fr: "Autour de Kagai Hirota, auteur d&rsquo;une adaptation de La Maison &agrave; vapeur &agrave; l&rsquo;&egrave;re Taisho"
+  author:
+  - ja: 藤元直樹
+    fr: "Fujimoto Naoki"
+  page: 91
 
-  - title:
-    - ja: 編集後記
-      fr: "Editorial"
-    page: 188
+dossier2:
+- title:
+  - ja: 十九世紀の百科全書派、バルザックとヴェルヌ
+    fr: "Balzac et Verne, deux encyclop&eacute;distes au XIXe si&egrave;cle"
+  author:
+  - ja: 私市保彦
+    fr: "Kisaichi Yasuhiko"
+  page: 108
+
+- title:
+  - ja: エッツェル、ラクロワ、ユゴー
+    fr: "Hetzel, Lacroix, Hugo"
+  author:
+  - ja: 石橋正孝
+    fr: "Ishibashi Masataka"
+  page: 114
+
+- title:
+  - ja: ［特別寄稿］ジョルジュ・サンドとエッツェル——三十年にわたる友情
+    fr: "George Sand et Hetzel : trente ann&eacute;es d&rsquo;amiti&eacute;"
+  author:
+  - ja: 村田京子
+    fr: "Murata Kyoko"
+  page: 125
+
+divers:
+- title:
+  - ja: 読書記録カード
+    fr: "Carnet de lecture"
+  author:
+  - ja: 新島遊
+    fr: "Niijima Yu"
+  page: 146
+
+- title:
+  - ja: ジュール・ヴェルヌの風は何処に行く
+    fr: "O&ugrave; va donc le vent vernien ?"
+  author:
+  - ja: 新須憲一
+    fr: "Shinsu Kenichi"
+  page: 147
+
+- title:
+  - ja: ヴェルヌと未知の怪物たち
+    fr: "Verne et monstres non identifi&eacute;s"
+  author:
+  - ja: 幕田けいた
+    fr: "Makuta Keita"
+  page: 151
+
+- title:
+  - ja: 「事件」としての書物——『〈驚異の旅〉または出版をめぐる冒険』読解へ向けて
+    fr: "Livre comme &ldquo;&eacute;v&eacute;nement&rdquo; : pour une lecture des Voyages extraordinares ou aventures &eacute;ditoriales"
+  author:
+  - ja: 島村山寝
+    fr: "Shimamura Sanshin"
+  page: 156
+
+- title:
+  - ja: 六助とソランジュの「魅惑のヴェルヌ」 いかにして、われわれは〈驚異の旅〉日本語版を実現させるか？ 第三回——『空中の村』
+    fr: "Les Verne non traduits : Comment r&eacute;alisons-nous la version jaoponaise de la collection compl&egrave;te des &ldquo;Voyages extraordinaires&rdquo; ? 3. Le village a&eacute;rien"
+  author:
+  - ja: ソランジュと六助
+    fr: "Locusuke et Solange"
+  page: 171
+
+- title:
+  - ja: 入会案内・活動報告
+    fr: "Adh&eacute;sion ; La vie de l&rsquo;association"
+  page: 187
+
+- title:
+  - ja: 編集後記
+    fr: "Editorial"
+  page: 188

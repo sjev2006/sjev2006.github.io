@@ -1,112 +1,109 @@
-part:
-- title:
+category:
+  dossier1:
   - ja: 特集：『十五少年』から『二年間の休暇』へ
-
-  article:
-  - title:
-    - ja: 『二年間の休暇』の新訳にあたって
-    author:
-    - ja: 私市保彦
-    page: 6
-
-  - title:
-    - ja: 【特別寄稿】曾祖父・森田思軒のこと
-    author:
-    - ja: 白石昌也
-    page: 8
-
-  - title:
-    - ja: 明治ヴェルヌ評判記——『十五少年』編
-    author:
-    - ja: 藤元直樹
-    page: 13
-
-  - title:
-    - ja: 二十分の休暇に
-    author:
-    - ja: 櫛木千尋
-    page: 23
-
-  - title:
-    - ja: 『二年間の休暇』読書会
-    page: 24
-
-  - title:
-    - ja: 『二年間の休暇』について
-    author:
-    - ja: 田中重行
-    page: 48
-
-- title:
+  divers:
   - ja: 自由投稿
-
-  article:
-  - title:
-    - ja: 何を読んでもヴェルヌを思いだす
-    author:
-    - ja: 新須憲一
-    page: 54
-
-  - title:
-    - ja: 日本ヴェルヌ映像コレクション【パート3】
-    author:
-    - ja: まくたけーた
-    page: 56
-
-  - title:
-    - ja: カレル・ゼマンによるヴェルヌ作品の映画化
-    author:
-    - ja: 小野耕世
-    page: 60
-
-  - title:
-    - ja: 『亜非利加内地：三十五日間空中旅行』にまつわるキーワード
-    author:
-    - ja: 大橋博之
-    page: 71
-
-  - title:
-    - ja: 『海底二万里』改訂作業途中経過 附・フォルカー・デース提供『海底二万里』対照表
-    author:
-    - ja: 石橋正孝
-    page: 75
-
-- title:
+  dossier2:
   - ja: 小特集：『グラント船長の子供たち』をめぐって
-
-  article:
-  - title:
-    - ja: 『グラント船長の子供たち』における読者の問題と編集者エッツェルの介入
-    author:
-    - ja: 石橋正孝
-    page: 88
-
-  - title:
-    - ja: 『グラント船長の子供たち』TVアニメ化検討会議
-    author:
-    - ja: 島村山寝
-    page: 104
-
-- title:
+  traduction:
   - ja: 連載翻訳
 
-  article:
-  - title:
-    - ja: 頑固者ケラバン【第三回】
-    author:
-    - ja: ジュール・ヴェルヌ
-    page: 142
+dossier1:
+- title:
+  - ja: 『二年間の休暇』の新訳にあたって
+  author:
+  - ja: 私市保彦
+  page: 6
 
-  - title:
-    - ja: 240日間、企画で奔走——実録・「異国見聞『八十日間世界一周』」スタッフの舞台裏
-    author:
-    - ja: 桜井飛鳥
-    page: 153
+- title:
+  - ja: 【特別寄稿】曾祖父・森田思軒のこと
+  author:
+  - ja: 白石昌也
+  page: 8
 
-  - title:
-    - ja: 会員アンケート：ヴェルヌ作品で最も印象に残っている場面は？
-    page: 165
+- title:
+  - ja: 明治ヴェルヌ評判記——『十五少年』編
+  author:
+  - ja: 藤元直樹
+  page: 13
 
-  - title:
-    - ja: 編集後記
-    page: 168
+- title:
+  - ja: 二十分の休暇に
+  author:
+  - ja: 櫛木千尋
+  page: 23
+
+- title:
+  - ja: 『二年間の休暇』読書会
+  page: 24
+
+- title:
+  - ja: 『二年間の休暇』について
+  author:
+  - ja: 田中重行
+  page: 48
+
+divers:
+- title:
+  - ja: 何を読んでもヴェルヌを思いだす
+  author:
+  - ja: 新須憲一
+  page: 54
+
+- title:
+  - ja: 日本ヴェルヌ映像コレクション【パート3】
+  author:
+  - ja: まくたけーた
+  page: 56
+
+- title:
+  - ja: カレル・ゼマンによるヴェルヌ作品の映画化
+  author:
+  - ja: 小野耕世
+  page: 60
+
+- title:
+  - ja: 『亜非利加内地：三十五日間空中旅行』にまつわるキーワード
+  author:
+  - ja: 大橋博之
+  page: 71
+
+- title:
+  - ja: 『海底二万里』改訂作業途中経過 附・フォルカー・デース提供『海底二万里』対照表
+  author:
+  - ja: 石橋正孝
+  page: 75
+
+dossier2:
+- title:
+  - ja: 『グラント船長の子供たち』における読者の問題と編集者エッツェルの介入
+  author:
+  - ja: 石橋正孝
+  page: 88
+
+- title:
+  - ja: 『グラント船長の子供たち』TVアニメ化検討会議
+  author:
+  - ja: 島村山寝
+  page: 104
+
+traduction:
+- title:
+  - ja: 頑固者ケラバン【第三回】
+  author:
+  - ja: ジュール・ヴェルヌ
+  page: 142
+
+- title:
+  - ja: 240日間、企画で奔走——実録・「異国見聞『八十日間世界一周』」スタッフの舞台裏
+  author:
+  - ja: 桜井飛鳥
+  page: 153
+
+- title:
+  - ja: 会員アンケート：ヴェルヌ作品で最も印象に残っている場面は？
+  page: 165
+
+- title:
+  - ja: 編集後記
+  page: 168

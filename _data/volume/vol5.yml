@@ -1,113 +1,111 @@
-part:
-- title:
+category:
+  dossier:
   - ja: 特集：『海底二万里』
-
-  article:
-  - title:
-    - ja: 【特別寄稿】海底二万海里——人生の針路を決めた本
-    author:
-    - ja: 佐々木元
-    page: 4
-
-  - title:
-    - ja: ヴェルヌの海洋冒険譚と『アラビアンナイト』
-    author:
-    - ja: 私市保彦
-    page: 7
-
-  - title:
-    - ja: 『海底二万里』における幻のエピソード
-    author:
-    - ja: ウィリアム・ブッチャー
-    page: 12
-
-  - title:
-    - ja: 『海底二万里』改訂作業に向けた覚書
-    author:
-    - ja: 石橋正孝
-    page: 27
-
-  - title:
-    - ja: 追いすがる船影——ランボーと『海底二万里』をめぐる「伝説」に抗して
-    author:
-    - ja: 倉方健作
-    page: 42
-
-  - title:
-    - ja: 『海底二万里』読書会
-    page: 56
-
-  - title:
-    - ja: 会員アンケート：映画でネモ船長を演じてほしい俳優は？
-    page: 82
-
-  - title:
-    - ja: 【特別寄稿】『海底二万里』に秘められたいくつかの謎
-    author:
-    - ja: 西村一
-    page: 84
-
-  - title:
-    - ja: 謎のサメ「ティントレア」総まとめ
-    author:
-    - ja: 新須憲一
-    page: 94
-
-  - title:
-    - ja: マッコウはわるくない
-    author:
-    - ja: 植草康浩
-    page: 98
-
-  - title:
-    - ja: 明治ヴェルヌ評判記——『海底旅行』・『海底紀行』編
-    author:
-    - ja: 藤元直樹
-    page: 105
-
-  - title:
-    - ja: 『海底二万里』における擬人的表現
-    author:
-    - ja: 島村山寝
-    page: 118
-
-- title:
+  divers:
   - ja: 自由投稿
-
-  article:
-  - title:
-    - ja: 日本ヴェルヌ映像コレクション【パート5】
-    author:
-    - ja: まくたけーた
-    page: 138
-
-  - title:
-    - ja: コペンハーゲンは一日で回れる——地球の中心への旅の前に
-    author:
-    - ja: 櫛木千尋
-    page: 143
-
-  - title:
-    - ja: チャトウィン、ピンチョン、ロメール、ヴェルヌ
-    author:
-    - ja: 島村山寝
-    page: 148
-
-- title:
+  traduction:
   - ja: 連載翻訳
 
-  article:
-  - title:
-    - ja: 頑固者ケラバン【第五回】
-    author:
-    - ja: ジュール・ヴェルヌ
-    page: 154
+dossier:
+- title:
+  - ja: 【特別寄稿】海底二万海里——人生の針路を決めた本
+  author:
+  - ja: 佐々木元
+  page: 4
 
-  - title:
-    - ja: ヴィルヘルム・シュトーリッツの秘密【第二回】
-    author:
-    - ja: ジュール・ヴェルヌ
-    page: 164
+- title:
+  - ja: ヴェルヌの海洋冒険譚と『アラビアンナイト』
+  author:
+  - ja: 私市保彦
+  page: 7
 
-  - title:
-    - ja: 編集後記
+- title:
+  - ja: 『海底二万里』における幻のエピソード
+  author:
+  - ja: ウィリアム・ブッチャー
+  page: 12
+
+- title:
+  - ja: 『海底二万里』改訂作業に向けた覚書
+  author:
+  - ja: 石橋正孝
+  page: 27
+
+- title:
+  - ja: 追いすがる船影——ランボーと『海底二万里』をめぐる「伝説」に抗して
+  author:
+  - ja: 倉方健作
+  page: 42
+
+- title:
+  - ja: 『海底二万里』読書会
+  page: 56
+
+- title:
+  - ja: 会員アンケート：映画でネモ船長を演じてほしい俳優は？
+  page: 82
+
+- title:
+  - ja: 【特別寄稿】『海底二万里』に秘められたいくつかの謎
+  author:
+  - ja: 西村一
+  page: 84
+
+- title:
+  - ja: 謎のサメ「ティントレア」総まとめ
+  author:
+  - ja: 新須憲一
+  page: 94
+
+- title:
+  - ja: マッコウはわるくない
+  author:
+  - ja: 植草康浩
+  page: 98
+
+- title:
+  - ja: 明治ヴェルヌ評判記——『海底旅行』・『海底紀行』編
+  author:
+  - ja: 藤元直樹
+  page: 105
+
+- title:
+  - ja: 『海底二万里』における擬人的表現
+  author:
+  - ja: 島村山寝
+  page: 118
+
+divers:
+- title:
+  - ja: 日本ヴェルヌ映像コレクション【パート5】
+  author:
+  - ja: まくたけーた
+  page: 138
+
+- title:
+  - ja: コペンハーゲンは一日で回れる——地球の中心への旅の前に
+  author:
+  - ja: 櫛木千尋
+  page: 143
+
+- title:
+  - ja: チャトウィン、ピンチョン、ロメール、ヴェルヌ
+  author:
+  - ja: 島村山寝
+  page: 148
+
+traduction:
+- title:
+  - ja: 頑固者ケラバン【第五回】
+  author:
+  - ja: ジュール・ヴェルヌ
+  page: 154
+
+- title:
+  - ja: ヴィルヘルム・シュトーリッツの秘密【第二回】
+  author:
+  - ja: ジュール・ヴェルヌ
+  page: 164
+
+- title:
+  - ja: 編集後記

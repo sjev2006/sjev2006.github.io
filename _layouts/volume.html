@@ -36,18 +36,17 @@
 {{ content }}
 
 <h2>目次</h2>
-{% assign vol = page.volume | prepend: 'vol' %}
-{% for itemi in site.data.volume[vol]['part'] %}
-{% if itemi.title %}
-<h3><span class="title-ja">{{ itemi.title[0].ja }}</span>{% if itemi.title[0].fr %}<br/>
-<span class="title-fr">{{ itemi.title[0].fr }}</span>{% endif %}</h3>{% endif %}
-{% for itemii in itemi.article %}{% if itemii.author == Nil %}
-<p>{{ itemii.title[0].ja }} {{ itemii.page }}<br/>
-{{ itemii.title[0].fr }}</p>
+
+{% assign vol = page.volume | prepend: 'vol' %}{% assign catarray = site.data.volume[vol]['category'] %}{% for itemi in catarray %}{% if itemi.last %}
+<h3><span class="title-ja">{{ itemi.last.first.ja }}</span>{% if itemi.last.last.fr %}<br/>
+<span class="title-fr">{{ itemi.last.last.fr }}</span>{% endif %}</h3>{% endif %}
+{% for itemii in site.data.volume[vol][itemi.first] %}{% if itemii.author == Nil %}
+<p>{{ itemii.title[0].ja }}{% if itemii.page %} {{ itemii.page }}{% endif %}{% if itemii.title[0].fr %}<br/>
+{{ itemii.title[0].fr }}{% endif %}</p>
 {% elsif itemii.title[0].fr == Nil %}
-<p>{{ itemii.title[0].ja }} {{ itemii.author[0].ja }} {{ itemii.page }}</p>
+<p>{{ itemii.title[0].ja }} {{ itemii.author[0].ja }}{% if itemii.page %} {{ itemii.page }}{% endif %}</p>
 {% else %}
-<p>{{ itemii.title[0].ja }} {{ itemii.author[0].ja }} {{ itemii.page }}<br/>
+<p>{{ itemii.title[0].ja }} {{ itemii.author[0].ja }}{% if itemii.page %} {{ itemii.page }}{% endif %}<br/>
 {{ itemii.title[0].fr }} / {{ itemii.author[0].fr }}</p>
 {% endif %}{% endfor %}{% endfor %}
 </div>
