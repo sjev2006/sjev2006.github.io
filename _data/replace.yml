@@ -1,3 +1,6 @@
+- before: 'a href="http'
+  after: 'a target="_blank" href="'
+
 - before: '＝'
   after: "&#x30A0;"
 
@@ -27,4 +30,3 @@
 
 - before: ' &raquo;'
   after: '<span class="punct"> &raquo;</span>'
-

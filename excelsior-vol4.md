@@ -3,9 +3,6 @@ layout: volume
 title: 「Excelsior!」第4号
 volume: 4
 ---
-
-[![](./img/excelsior4s.jpg){:.right}](./img/excelsior4.jpg)
-
 - 初版発行：2010年4月30日
   - 発行人：石橋正孝
   - 編集：石橋正孝、椎名建仁
@@ -14,5 +11,3 @@ volume: 4
 - 体裁：A5判、208ページ
 - 頒布価格：1000円（会員の場合は200円割引） 
 {:.colophon}
-
-## 目次

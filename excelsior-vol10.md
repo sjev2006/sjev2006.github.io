@@ -3,9 +3,6 @@ layout: volume
 title: 「Excelsior!」第10号
 volume: 10
 ---
-
-[![](./img/excelsior10s.jpg){:.right}](./img/excelsior10.jpg)
-
 - 初版発行：2015年11月23日
   - 発行人：石橋正孝
   - 編集：石橋正孝、中村健太郎
@@ -14,5 +11,3 @@ volume: 10
 - 体裁：A5判、310ページ
 - 頒布価格：1500円（10周年記念号特別価格）
 {:.colophon}
-
-## 目次

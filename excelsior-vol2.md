@@ -3,9 +3,6 @@ layout: volume
 title: 「Excelsior!」第2号
 volume: 2
 ---
-
-[![](./img/excelsior2s.jpg){:.right}](./img/excelsior2.jpg)
-
 - 初版発行：2008年3月31日
   - 発行人：新島進
   - 編集：石橋正孝、桜井飛鳥、椎名建仁、新島進
@@ -14,5 +11,3 @@ volume: 2
 - 体裁：A5判、184ページ
 - 頒布価格：1000円（会員の場合は200円割引）**完売しました**
 {:.colophon}
-
-## 目次

@@ -10,16 +10,26 @@
 </head>
 <body>
 
+{% capture html %}
 <div class="header">
 <a href="./">{{ site.home }}</a>&gt;{{ page.title }}
 </div>
 
-{% if page.side_image != Nil %}
+{% if page.side_image %}
 <div class="side"><img src="./img/{{ page.side_image }}"></div>
 {% endif %}
 
 <div class="main">
 <h1>{{ page.title }}</h1>
+
+{% if page.epigraph %}
+{% assign epiarray = site.data.epigraph[page.epigraph] %}
+{% assign epiquote = epiarray.quote | newline_to_br | strip_newlines | split: '<br />' %}
+<blockquote class="epigraph">{% for itemi in epiquote %}
+  <p>{{ itemi }}</p>{% endfor %}
+  <p>──『{{ epiarray.source }}』</p>
+</blockquote>
+{% endif %}
 
 {{ content }}
 
@@ -28,12 +38,12 @@
 <h2>{{ page[item] }}</h2>
 {% for itemi in site.data.reunion[item] %}
 <h3>{{ itemi.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</h3>
-{% if itemi.summary != Nil%}{{ itemi.summary | markdownify | strip_newlines }}{% endif %}
-<ul>{% for itemii in itemi.detail %}{% assign tempa = itemii | first %}{% if tempa == Nil %}
-  <li>{{ itemii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% else %}{% assign tempa = itemii | split: '=>' | first %}{% assign len = tempa | size | minus: 3 %}{% assign key = tempa | slice: 2, len %}
-  <li>{{ key }}
-    <ul>{% for itemiii in itemii[key] %}
-      <li>{{ itemiii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+{% if itemi.summary %}{{ itemi.summary | markdownify | strip_newlines }}{% endif %}
+<ul>{% for itemii in itemi.detail %}{% assign arrayii = itemii | newline_to_br | strip_newlines | split: '<br />' %}{% assign n = arrayii.size | minus: 1 %}{% if n == 0 %}
+  <li>{{ arrayii[0] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% else %}
+  <li>{{ arrayii[0] }}
+    <ul>{% for i in (1..n) %}
+      <li>{{ arrayii[i] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
     </ul>
   </li>{% endif %}{% endfor %}
 </ul>
@@ -41,5 +51,11 @@
 {% endfor %}
 
 </div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
+
 </body>
 </html>

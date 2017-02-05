@@ -10,19 +10,35 @@
 </head>
 <body>
 
+{% capture html %}
 <div class="header">
 <a href="./">{{ site.home }}</a>&gt;{{ page.title }}
 </div>
 
-{% if page.side_image != Nil %}
+{% if page.side_image %}
 <div class="side"><img src="./img/{{ page.side_image }}"></div>
 {% endif %}
 
 <div class="main">
 <h1>{{ page.title }}</h1>
 
+{% if page.epigraph %}
+{% assign epiarray = site.data.epigraph[page.epigraph] %}
+{% assign epiquote = epiarray.quote | newline_to_br | strip_newlines | split: '<br />' %}
+<blockquote class="epigraph">{% for itemi in epiquote %}
+  <p>{{ itemi }}</p>{% endfor %}
+  <p>──『{{ epiarray.source }}』</p>
+</blockquote>
+{% endif %}
+
 {{ content }}
 
 </div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
+
 </body>
 </html>

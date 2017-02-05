@@ -3,9 +3,6 @@ layout: volume
 title: 「Excelsior!」第11号
 volume: 11
 ---
-
-[![](./img/excelsior11s.jpg){:.right}](./img/excelsior11.jpg)
-
 - 初版発行：2016年11月23日
   - 発行人：島村山寝
   - 編集：石橋正孝、中村健太郎
@@ -14,5 +11,3 @@ volume: 11
 - 体裁：A5判、202ページ
 - 頒布価格：1000円
 {:.colophon}
-
-## 目次

@@ -3,9 +3,6 @@ layout: volume
 title: 「Excelsior!」第5号
 volume: 5
 ---
-
-[![](./img/excelsior5s.jpg){:.right}](./img/excelsior5.jpg)
-
 - 初版発行：2011年5月31日
   - 発行人：石橋正孝
   - 編集：石橋正孝、椎名建仁
@@ -14,5 +11,3 @@ volume: 5
 - 体裁：A5判、176ページ
 - 頒布価格：1000円
 {:.colophon}
-
-## 目次

@@ -10,6 +10,7 @@
 </head>
 <body>
 
+{% capture html %}
 <div class="side"><img src="./img/{{ page.side_image }}"></div>
 
 <div class="main">
@@ -20,6 +21,7 @@
 </h1>
 
 <div class="contents">
+<p><img src="./img/{{ page.head_image }}" class="right"></p>
 {{ content }}
 </div>
 
@@ -57,6 +59,11 @@
 </div>
 
 </div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
 
 </body>
 </html>
