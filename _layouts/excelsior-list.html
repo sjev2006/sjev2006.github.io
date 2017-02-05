@@ -10,11 +10,8 @@
 <base target="_parent">
 </head>
 <body class="sidelist">
-<ul>
-{% for i in (1..page.latest) %}
-{% assign j = page.latest | plus: 1 | minus: i %}
-<li><a href="./excelsior-vol{{ j }}.html"><img src="./img/excelsior{{ j }}s.jpg"></a></li>
-{% endfor %}
+<ul>{% for i in (1..site.data.volume.size) %}{% assign j = site.data.volume.size | plus: 1 | minus: i %}
+<li><a href="./excelsior-vol{{ j }}.html"><img src="./img/excelsior{{ j }}s.jpg"></a></li>{% endfor %}
 </ul>
 </body>
 </html>
