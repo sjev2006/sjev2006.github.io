@@ -1,5 +1,5 @@
 - before: 'a href="http'
-  after: 'a target="_blank" href="'
+  after: 'a target="_blank" href="http'
 
 - before: '＝'
   after: "&#x30A0;"
