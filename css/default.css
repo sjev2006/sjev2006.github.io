@@ -164,7 +164,7 @@ div.side{
  padding: 0px;
  padding-right: 17px;
  list-style-type: none;
- overflow-y: scroll
+ overflow-y: scroll;
 }
 .sidelist img{
  width: 100px;
@@ -246,13 +246,28 @@ li{
  margin: 0px;
  padding: 0px;
 }
-dt{
- display: inline;
- margin: 0px;
- font-weight: normal;
+dl.history{
+ width: 650px;
+ margin-left: -150px;
 }
-dd{
- display: inline;
+dl.history dt{
+ display: block;
+ width: 140px;
+ margin: 0px;
+ padding: 1px 5px;
+ text-align: right;
+ background-color: #36c;
+ color: #fff;
+ font-weight: bold;
+}
+dl.history dd{
+ display: block;
+ margin: -1px 0px 10px 150px;
+ border-style: solid;
+ border-color: #36c;
+ border-width: 1px 0px 0px 0px;
+}
+dd p{
  margin: 0px;
 }
 
