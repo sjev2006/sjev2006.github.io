@@ -112,6 +112,7 @@ div.blogdate{
  padding: 0px;
  overflow: scroll;
  overflow-x: hidden;
+ overflow-y: scroll;
  background-color: #def;
 }
 div.mirror{
@@ -120,7 +121,9 @@ div.mirror{
  border: solid 2px #48c;
  border-radius: 10px;
  background-color: #def;
- overflow: scroll;
+ overflow: hidden;
+ overflow-x: hidden;
+ overflow-y: hidden;
 }
 div.mirror object{
  width: 350px;
