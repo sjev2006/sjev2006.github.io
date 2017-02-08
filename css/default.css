@@ -102,6 +102,13 @@ div.figure{
  margin: 0px 0px 18px 18px;
  text-align: right;
 }
+div.blogdate{margin:10px 0px 0px 0px;text-align:right;}
+.mirror{width:310px;}
+.mirror{margin:10px 30px 10px 10px;}
+.mirror{padding:0px;}
+.mirror{overflow:scroll;}
+.mirror{overflow-x:hidden;}
+.mirror{background-color:#def;}
 div.mirror{
  width: 360px;
  margin: 24px 0px;
