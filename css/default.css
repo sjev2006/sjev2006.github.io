@@ -79,6 +79,22 @@ div.contents ul{
  clear: none;
  width: 250px;
 }
+div.book-data{
+ padding-bottom:1em;
+}
+div.book-data>ul{
+ display:table-cell;
+ vertical-align:top;
+ min-height:180px;
+}
+div.book-data>a{
+ display:table-cell;
+ vertical-align:top;
+ margin-bottom:1em;
+}
+div.book-data img{
+ width:100px;
+}
 div.figure{
  float: right;
  clear: none;
@@ -86,7 +102,6 @@ div.figure{
  margin: 0px 0px 18px 18px;
  text-align: right;
 }
-
 div.mirror{
  width: 360px;
  margin: 24px 0px;

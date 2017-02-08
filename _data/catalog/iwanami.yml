@@ -1,0 +1,38 @@
+name: 岩波文庫・岩波少年文庫
+description: 発行日の新しい順に掲載しています。ここに掲載している本は、児童書レーベルも含めておおむね完訳版です。
+catalog:
+- title: 海底二万里〈上〉（岩波文庫）
+  author:
+    訳: 朝比奈美知子
+  affil: 4003256948
+  cover: 41zzRBhynkL
+
+- title: 海底二万里〈下〉（岩波文庫）
+  author:
+    訳: 朝比奈美知子
+  affil: 4003256956
+  cover: 411qwSQMxRL
+
+- title: 海底二万里〈上〉（岩波少年文庫）
+  author:
+    訳: 私市保彦
+  affil: 4001145723
+  cover: 61JK2ZFBTSL
+
+- title: 海底二万里〈下〉（岩波少年文庫）
+  author:
+    訳: 私市保彦
+  affil: 4001145731
+  cover: 61KCZ1TYXAL
+
+- title: 八十日間世界一周（岩波文庫）
+  author:
+    訳: 鈴木啓二
+  affil: 400325693X
+  cover: 51PBJBEF18L
+
+- title: 地底旅行（岩波文庫）
+  author:
+    訳: 朝比奈弘治
+  affil: 4003256921
+  cover: 51TMZNTDHFL

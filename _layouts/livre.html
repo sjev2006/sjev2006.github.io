@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="../css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+</head>
+<body>
+
+{% capture html %}
+<div class="header">
+<a href="../">{{ site.home }}</a>&gt;{{ page.title }}
+</div>
+
+{% if page.side_image %}
+<div class="side"><img src="./img/{{ page.side_image }}"></div>
+{% endif %}
+
+<div class="main">
+<h1>{{ page.title }}</h1>
+
+{% if page.epigraph %}
+{% assign epiarray = site.data.epigraph[page.epigraph] %}
+{% assign epiquote = epiarray.quote | newline_to_br | strip_newlines | split: '<br />' %}
+<blockquote class="epigraph">{% for itemi in epiquote %}
+  <p>{{ itemi }}</p>{% endfor %}
+  <p>──『{{ epiarray.source }}』</p>
+</blockquote>
+{% endif %}
+
+{{ content }}
+
+<ul>{% for itemi in site.data.livre %}{% if itemi.name %}
+  <li>{{ itemi.name }}
+    <ul>{% for itemii in itemi.list %}
+      <li><a href="#{{ itemii }}">{{ site.data.catalog[itemii].name }}</a></li>{% endfor %}
+    </ul>{% else %}
+  <li><a href="#{{ itemi.list.first }}">{{ site.data.catalog[itemi.list.first].name }}</a></li>{% endif %}{% endfor %}
+</ul>
+
+{% for itemi in site.data.livre %}
+{% if itemi.name %}
+<h2>{{ itemi.name }}</h2>
+{% assign htag = 3 %}
+{% else %}
+{% assign htag = 2 %}
+{% endif %}
+{% for itemii in itemi.list %}
+{% assign arrayii = site.data.catalog[itemii] %}
+<h{{ htag }} id="{{ itemii }}">{{ arrayii.name }}</h{{ htag }}>
+{% if arrayii.description %}
+<p>{{ arrayii.description }}</p>
+{% endif %}
+{% for itemiii in arrayii.catalog %}
+<div class="book-data">
+{% if itemiii.cover %}
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ itemiii.affil }}/vernesyoten-22/">
+{% assign tempiii = itemiii.cover | split: '/' %}
+{% if tempiii.size == 1 %}
+<img alt="書影：{{ itemiii.title }}" src="http://ecx.images-amazon.com/images/I/{{ itemiii.cover }}._SL160_.jpg">
+{% else %}
+<img alt="書影：{{ itemiii.title }}" src="./{{ itemiii.cover }}.jpg">
+{% endif %}</a>{% endif %}
+<ul>
+  <li>{{ itemiii.title }}
+    <ul>
+{% for itemiv in itemiii.author %}
+      <li>{{ itemiv.last }}&emsp;{{ itemiv.first }}</li>
+{% endfor %}
+{% if itemiii.note %}
+      <li>※{{ itemiii.note }}</li>
+{% endif %}
+{% if itemiii.detail %}
+      <li><a href="./{{ itemiii.detail }}.html">詳細を見る</a></li>
+{% endif %}
+    </ul>
+  </li>
+</ul>
+</div>
+{% endfor %}{% endfor %}{% endfor %}
+
+</div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
+
+</body>
+</html>

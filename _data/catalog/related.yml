@@ -1,0 +1,381 @@
+name: ヴェルヌに関連する書籍
+catalog:
+- title: 〈驚異の旅〉または出版をめぐる冒険：ジュール・ヴェルヌとピエール＝ジュール・エッツェル
+  author:
+    著: 石橋正孝
+    年: 2013
+  affil: 490350090X
+  cover: 41GkqA-xixL
+
+- title: ジュール・ヴェルヌ伝
+  author:
+    著: フォルカー・デース
+    訳: 石橋正孝
+    年: 2014
+  affil: 4801000304
+  cover: img/dehs
+
+- title: ジュール・ヴェルヌが描いた横浜：「八十日間世界一周」の世界（慶應義塾大学教養研究センター選書）
+  author:
+    編: 新島進
+    年: 2010
+  affil: 4766417372
+  cover: img/2010_yokohama
+  detail: 2010_yokohama
+
+- title: ジュール・ヴェルヌの世紀：科学・冒険・〈驚異の旅〉
+  author:
+    序: ミシェル・セール
+    ほか著: コタルディエール
+    監訳: 私市保彦
+    訳: 新島進・石橋正孝
+    年: 2009
+  affil: 4887217471
+  cover: img/2009_siecle
+  detail: 2009_siecle
+
+- title: 水声通信 no.&nbsp;27（2008年11/12月号）［特集］ジュール・ヴェルヌ
+  affil: 4891766638
+  cover: img/2008_suisei
+  detail: 2008_suisei
+
+- title: ジュール・ヴェルヌの暗号：レンヌ＝ル＝シャトーの謎と秘密結社
+  author:
+    著: ミシェル・ラミ
+    訳: 高尾謙史
+    年: 1997
+  affil: 4875022913
+  cover: 510W52J895L
+
+- title: 文明の帝国：ジュール・ヴェルヌとフランス帝国主義文化
+  author:
+    著: 杉本淑彦
+    年: 1995
+  affil: 4634643405
+  cover: img/sugimoto
+
+- title: 青春ジュール・ヴェルヌ論（叢書・ウニベルシタス）
+  author:
+    著: ミッシェル・セール
+    訳: 豊田彰
+    年: 1993
+  affil: 4588003968
+  cover: img/serres
+
+- title: ジュール・ヴェルヌと日本
+  author:
+    著: 富田仁
+    年: 1984
+  affil: B000J74C12
+  cover: img/tomita
+
+- title: ［新訳］独身者機械
+  author:
+    著: ミシェル・カルージュ
+    訳: 新島進
+    年: 2014
+  affil: 4887218168
+  cover: 41Y2y4orghL
+
+- title: 早稲田文学2号［特集］ミシェル・ビュトール
+  author:
+    年: 2008
+  note: 「ジュール・ヴェルヌで読むミシェル・ビュトール」（石橋正孝）収録。
+  affil: 4778311582
+  cover: 517se0LBHVL
+
+- title: エピステモロジーの現在
+  author:
+    編著: 金森修
+    年: 2008
+  note: 「地質学と起源の夢想：十九世紀フランスにおける文学と科学」（荒原由紀子）収録。
+  affil: 4766415523
+  cover: 41hU5jA9U0L
+
+- title: 名編集者エッツェルと巨匠たち：フランス文学秘史
+  author:
+    著: 私市保彦
+    年: 2007
+  affil: 4788510383
+  cover: 41-cn3lCUiL
+
+- title: ネモ船長と青ひげ（晶文社オンデマンド選書）
+  author:
+    著: 私市保彦
+    年: 2007
+  affil: 4794910983
+
+- title: 図説児童文学翻訳大事典（全4巻）
+  author:
+    年: 2007
+  note: 第4巻に「ヴェルヌの衝撃と春浪」（私市保彦）と「忘却のジュール・ヴェルヌ：カノン化前夜の諸相」（藤元直樹）収録。
+  affil: 4283005169
+
+- title: 人造美女は可能か？
+  author:
+    編: 巽孝之・荻野アンナ
+    年: 2006
+  note: 「ヴェルヌとルーセル、その人造美女たち」（新島進）収録。
+  affil: 4766413016
+  cover: 51G5PTQPD7L
+
+- title: SF Japan (2006spring)
+  note: 「ジュヴナイルSFにおけるジュール・ヴェルヌ」（大橋博之）収録。
+  affil: 419862142X
+  cover: 31A48E4FFQL
+
+- title: 創元推理21 2002年夏号
+  note: 「『八十日間世界一周』論：ジュール・ヴェルヌと推理小説の黎明期」（石橋正孝）収録。
+  affil: 4488495052
+  cover: 21CVF48DB7L
+
+- title: フランスの子どもの本：「眠りの森の美女」から「星の王子さま」へ
+  author:
+    著: 私市保彦
+    年: 2001
+  affil: 4560047103
+  cover: 412D1S53NRL
+
+- title: 幻想物語の文法：ギルガメシュからゲド戦記へ
+  author:
+    著: 私市保彦
+    年: 1987
+  note: 画像はちくま学芸文庫版（1997年）
+  affil: 4794931115
+  cover: img/kisaichi
+
+- title: フランスの子ども絵本史
+  author:
+    著: 石澤小枝子・高岡厚子・竹田順子・中川亜沙美
+    年: 2009
+  affil: 487259262X
+  cover: 51-%2B6rjkz1L
+
+- title: きのこ文学大全（平凡社新書）
+  author:
+    著: 飯沢耕太郎
+    年: 2008
+  affil: 4582854478
+  cover: 41SzaBBwnGL
+
+- title: ポーからジュール・ヴェルヌ、ランボーへ：冒険物語の系譜をたどる
+  author:
+    著: 高岡厚子
+    年: 2007
+  affil: 4811572610
+  cover: img/takaoka
+
+- title: 図解宇宙船（F-Files）
+  author:
+    著: 称名寺健荘・森瀬繚
+    年: 2007
+  affil: 4775305174
+  cover: 41IfluymwqL
+
+- title: 岩波講座 文学〈6〉虚構の愉しみ
+  author:
+    年: 2003
+  note: 「新たな物語の測量者ジュール・ヴェルヌ」（芳川泰久）収録。
+  affil: 4000112066
+  cover: 317GY9WFRVL
+
+- title: アール・ヌーボーの世界：モダン・アートの源泉（中公文庫）
+  author:
+    著: 海野弘
+    年: 2003
+  note: 5章「アール・ヌーボーのデザインと思想」にて3ページにわたって、ヴェルヌとアールヌーボーのかかわりについて触れている。
+  affil: 412204152X
+  cover: 61AM44FB57L
+
+- title: 船の歴史事典［コンパクト版］
+  author:
+    著: アティリオ・クカーリ、エンツォ・アンジェルッチ
+    訳: 堀元美
+    年: 2002
+  affil: 4562035234
+  cover: 51J5CM289AL
+
+- title: ［完訳］世界文学にみる架空地名大事典
+  author:
+    著: A．マングェル、G．グアダルーピ
+    監訳: 高橋康也
+    年: 2002
+  affil: 4062105640
+  cover: 51AJ66H988L
+
+- title: 無人（ウ-テイス）の誕生
+  author:
+    著: 楜沢厚生
+    年: 2002
+  affil: 487714031X
+  cover: img/kurumisawa
+
+- title: 文学は別解で行こう
+  author:
+    著: 鹿島茂
+    年: 2001
+  affil: 456002829X
+  cover: 51D2A7VGQSL
+
+- title: 怪盗対名探偵：フランス・ミステリーの歴史（双葉文庫）
+  author:
+    著: 松村喜雄
+    年: 2000
+  affil: 4575658510
+  cover: 51hyNMltlnL
+
+- title: ロビンソン変形譚小史：物語の漂流（みすずライブラリー）
+  author:
+    著: 岩尾龍太郎
+    年: 2000
+  affil: 462205051X
+  cover: 41MENF1JPRL
+
+- title: 新＝批判的エッセー：構造からテクストへ
+  author:
+    著: ロラン・バルト
+    訳: 花輪光
+    年: 1999
+  affil: 4622049678
+  cover: 41GN7RQSWBL
+
+- title: リゾート世紀末：水の記憶の旅
+  author:
+    著: 山田登世子
+    年: 1998
+  affil: 4480857575
+  cover: 51SXDQB798L
+
+- title: 〈驚異〉の楽園：フランス世紀末文学の一断面
+  author:
+    著: 中島廣子
+    年: 1997
+  affil: 433603981X
+  cover: 51C3T3P45CL
+
+- title: 気球の夢：空のユートピア
+  author:
+    著: 喜多尾道冬
+    年: 1996
+  affil: 4022569395
+  cover: 51PPKYXCHAL
+
+- title: 幻想の地誌学：空想旅行文学渉猟
+  author:
+    著: 谷川渥
+    年: 1996
+  affil: 4845710919
+  cover: 61QEWV8V98L
+
+- title: 北極の神秘主義：極地の神話・科学・象徴性、ナチズムをめぐって
+  author:
+    著: ジョスリン・ゴドウィン
+    訳: 松田和也
+    訳: 1995
+  affil: 4875022565
+  cover: 21K1HTT7BDL
+
+- title: フランス児童文学史
+  author:
+    著: フランソワ・カラデック
+    訳: 石澤小枝子
+    年: 1994
+
+- title: 月のミステリー：知られざる月の素顔と神秘を探る（ニュートンムック Newton別冊）
+  author:
+    年: 1994
+  affil: 4315513784
+  cover: 71r7XbVUsnL
+
+- title: ロビンソン・クルーソー物語
+  author:
+    著: M．グリーン
+    訳: 岩尾龍太郎
+    年: 1993
+  affil: 4622030659
+  cover: img/green
+
+- title: 地下世界：イメージの変容・表象・寓意（テオリア叢書）
+  author:
+    著: ロザリンド・ウィリアムズ
+    訳: 市場泰男
+    年: 1992
+  affil: 4582744206
+  cover: img/williams
+
+- title: 神モーツァルトと小鳥たちの世界
+  author:
+    著: マルセル・モレ
+    訳: 石井宏
+    年: 1991
+  affil: 4487760992
+  cover: img/more
+
+- title: SFの変容：ある文学ジャンルの詩学と歴史
+  author:
+    著: ダルコ・スーヴィン
+    訳: 大橋洋一
+    年: 1991
+  affil: 4772000267
+  cover: 51DVFEJNh2L
+
+- title: 独身者の機械
+  author:
+    著: ミッシェル・カルージュ
+    訳: 高山宏・森永徹
+    年: 1991
+  cover: img/carrouges
+
+- title: 世紀末異貌
+  author:
+    著: 高山宏
+    年: 1990
+  note: 「ロスト・ワールド幻想：驚異な旅人ジュール・ベルヌの世紀末」収録。
+  affil: 4385353603
+  cover: img/takayama
+
+- title: 世界幻想文学大系〈44〉月世界への旅
+  author:
+    著: M．H．ニコルソン
+    訳: 高山宏
+    年: 1986
+  affil: 4336025509
+  cover: img/nicolson
+
+- title: シャーロック・ホームズの記号論：C．S．パースとホームズの比較研究（岩波現代選書）
+  author:
+    著: J．ユミカー＝シービオク
+    訳: 富山太佳夫
+    年: 1981
+  affil: B000J7XFHE
+  cover: img/sebeok
+
+- title: 空間のコスモロジー
+  author:
+    著: 篠田浩一郎
+    年: 1981
+  affil: B000J7V2E2
+  cover: img/shinoda
+
+- title: インド最後の王：ティプー・スルタンの生涯
+  author:
+    著: 渡辺建夫
+    年: 1980
+  note: 『神秘の島』でティブ・サイブとも呼ばれている人物であり、ティブ・サイブの甥がダカール王子（ネモ船長）と設定されてもいる、ティプ・スルタンの史実。
+  affil: B000J88FIC
+
+- title: 蛸：想像の世界を支配する論理をさぐる
+  author:
+    著: ロジェ・カイヨワ
+    訳: 塚崎幹夫
+    年: 1975
+  affil: B000J94T9U
+  cover: img/caillois
+
+- title: 神話作用
+  author:
+    著: ロラン・バルト
+    訳: 篠沢秀夫
+    年: 1967
+  affil: 4329000598
+  cover: img/barthes

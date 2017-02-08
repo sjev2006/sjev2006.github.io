@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="../css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+</head>
+<body>
+
+{% capture html %}
+<div class="header">
+<a href="../">{{ site.home }}</a>&gt;<a href="./">ヴェルヌ書店</a>&gt;{{ page.title }}
+</div>
+
+<div class="side"><object data="./review-list.html"></object></div>
+
+<div class="main">
+<h1>{{ page.title }}</h1>
+
+{% if page.epigraph %}
+{% assign epiarray = site.data.epigraph[page.epigraph] %}
+{% assign epiquote = epiarray.quote | newline_to_br | strip_newlines | split: '<br />' %}
+<blockquote class="epigraph">{% for itemi in epiquote %}
+  <p>{{ itemi }}</p>{% endfor %}
+  <p>──『{{ epiarray.source }}』</p>
+</blockquote>
+{% endif %}
+
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ page.affil }}/vernesyoten-22/"><img src="./img/{{ page.head_image }}" class="right"></a></p>
+
+{{ content }}
+
+</div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
+
+</body>
+</html>

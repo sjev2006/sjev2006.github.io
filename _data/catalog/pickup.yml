@@ -1,0 +1,26 @@
+name: Pick Up!
+catalog:
+- title: ジュール・ヴェルヌが描いた横浜：「八十日間世界一周」の世界（慶應義塾大学教養研究センター選書）
+  author:
+    編: 新島進
+    年: 2010
+  affil: 4766417372
+  cover: img/2010_yokohama
+  detail: 2010_yokohama
+
+- title: ジュール・ヴェルヌの世紀：科学・冒険・〈驚異の旅〉
+  author:
+    序: ミシェル・セール
+    ほか著: コタルディエール
+    監訳: 私市保彦
+    訳: 新島進
+    訳: 石橋正孝
+    年: 2009
+  affil: 4887217471
+  cover: img/2009_siecle
+  detail: 2009_siecle
+
+- title: 水声通信 no.&nbsp;27（2008年11/12月号）［特集］ジュール・ヴェルヌ
+  affil: 4891766638
+  cover: img/2008_suisei
+  detail: 2008_suisei

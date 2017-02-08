@@ -1,0 +1,70 @@
+name: 創元SF文庫
+description: 発行日の新しい順に掲載しています。ここに掲載している本は、（断り書きのあるものを除き）おおむね完訳版です。
+catalog:
+- title: 地軸変更計画
+  author:
+    訳: 榊原晃三
+  affil: 4488606067
+  cover: 41RWYJQQFSL
+
+- title: 月世界へ行く
+  author:
+    訳: 江口清
+  affil: 4488606075
+  cover: 5190JQ577CL
+
+- title: 動く人工島
+  author:
+    訳: 三輪秀彦
+  note: 抄訳
+  affil: 4488517056
+  cover: 61PNKnmKHPL
+
+- title: サハラ砂漠の秘密
+  author:
+    訳: 石川湧
+  affil: 4488517013
+  cover: 61Wux3Ci%2BhL
+
+- title: 海底二万里
+  author:
+    訳: 荒川浩充
+  affil: 4488517048
+  cover: 21X0WYCGEQL
+
+- title: 十五少年漂流記
+  author:
+    訳: 荒川浩充
+  affil: 4488606059
+  cover: 61W0KKPA5DL
+
+- title: 八十日間世界一周
+  author:
+    訳: 田辺貞之助
+  affil: 448851703X
+  cover: 61yyIzmEtEL
+
+- title: 必死の逃亡者
+  author:
+    訳: 石川湧
+  affil: 4488517021
+  cover: 51aYHQLmyrL
+
+- title: オクス博士の幻想
+  author:
+    訳: 窪田般彌
+  note: 短編集。表題作のほか、「ザカリウス親方」「氷のなかの冬ごもり」を収録。
+  affil: 4488606040
+  cover: 613XAE4C97L
+
+- title: 悪魔の発明
+  author:
+    訳: 鈴木豊
+  affil: 4488606032
+  cover: 61pyNeWZBmL
+
+- title: 地底旅行
+  author:
+    訳: 窪田般彌
+  affil: 4488606024
+  cover: 61ZBD4ESZTL

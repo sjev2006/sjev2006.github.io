@@ -1,0 +1,28 @@
+- list:
+  - pickup
+- name: ヴェルヌ作品
+  list:
+  - shueisha_2
+  - shueisha_1
+  - pacifica
+  - iwanami
+  - sogensha
+  - kaiseisha
+  - fukuinkan
+  - misc
+  - anthology
+  - meiji-era
+- list:
+  - related
+- name: ヴェルヌと関係の深い文学作品
+  list:
+  - defoe
+  - wyss
+  - poe
+  - nadar
+  - dumas-fils
+  - robida
+  - doyle
+  - morita
+  - wells
+  - roussel

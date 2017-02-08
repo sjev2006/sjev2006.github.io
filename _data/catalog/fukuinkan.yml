@@ -1,0 +1,54 @@
+name: 福音館文庫・古典童話シリーズ
+description: 発行日の新しい順に掲載しています。ここに掲載している本は児童書レーベルですがおおむね完訳版です。
+catalogue:
+- title: 海底二万海里〈上〉（福音館文庫）
+  author:
+    訳: 清水正和
+  affil: 4834020932
+  cover: 5112DE5Z55L
+
+- title: 海底二万海里〈下〉（福音館文庫）
+  author:
+    訳: 清水正和
+  affil: 4834020940
+  cover: 51TX4XJETTL
+
+- title: 二年間の休暇〈上〉（福音館文庫）
+  author:
+    訳: 朝倉剛
+  affil: 4834018059
+  cover: 51YE9NQJ5GL
+
+- title: 二年間の休暇〈下〉（福音館文庫）
+  author:
+    訳: 朝倉剛
+  affil: 4834018067
+  cover: 51Q4X1VRV8L
+
+- title: 神秘の島〈上〉（古典童話シリーズ）
+  author:
+    訳: 清水正和
+  note: 函入上製本
+  affil: 4834007278
+  cover: 615nU6G1RAL
+
+- title: 神秘の島〈下〉（古典童話シリーズ）
+  author:
+    訳: 清水正和
+  note: 函入上製本
+  affil: 4834007286
+  cover: 61WTvBFhotL
+
+- title: 海底二万海里（古典童話シリーズ）
+  author:
+    訳: 清水正和
+  note: 函入上製本
+  affil: 4834004007
+  cover: 61tsYOF3yNL
+
+- title: 二年間の休暇（古典童話シリーズ）
+  author:
+    訳: 朝倉剛
+  note: 函入上製本
+  affil: 4834001334
+  cover: 61sWyocGPAL

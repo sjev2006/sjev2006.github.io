@@ -1,0 +1,143 @@
+name: ヴェルヌ全集（集英社コンパクト・ブックス）
+description: 入手困難。発行日の新しい順に掲載しています。ここに掲載している本は、おおむね完訳版です。
+catalog:
+- title: 砂漠の秘密都市
+  author:
+    訳: 石川湧
+  affil: B000J94H8I
+  cover: img/shueisha_23
+
+- title: ドクター・オクス《短篇集》
+  author:
+    訳: 古屋健三
+  note: 表題作のほか、「ザカリウス師」「ラトン一家の冒険」「永遠のアダム」を収録。
+  affil: B000J94H88
+  cover: img/shueisha_24
+
+- title: 神秘の島〈1〉
+  author:
+    訳: 手塚伸一
+  affil: B000J94H92
+  cover: img/shueisha_21
+
+- title: 神秘の島〈2〉
+  author:
+    訳: 手塚伸一
+  affil: B000J94H8S
+  cover: img/shueisha_22
+
+- title: 黒いダイヤモンド
+  author:
+    訳: 新庄嘉章
+  affil: B000J94H9M
+  cover: img/shueisha_19
+
+- title: ジャンガダ
+  author:
+    訳: 安東次男
+  affil: B000J94H9C
+  cover: img/shueisha_20
+
+- title: グラント船長の子供たち〈1〉
+  author:
+    訳: 大久保和郎
+  affil: B000JB1IKG
+  cover: img/shueisha_17
+
+- title: グラント船長の子供たち〈2〉
+  author:
+    訳: 大久保和郎
+  affil: B000JB1IK6
+  cover: img/shueisha_18
+
+- title: 月世界探検
+  author:
+    訳: 高木進
+  affil: B000JB1IL0
+  cover: img/shueisha_15
+
+- title: 動く海上都市
+  author:
+    訳: 三輪秀彦
+  note: 抄訳
+  affil: B000JB1IKQ
+  cover: img/shueisha_16
+
+- title: アドリア海の復讐〈1〉
+  author:
+    訳: 金子博
+  cover: img/shueisha_13
+
+- title: アドリア海の復讐〈2〉
+  author:
+    訳: 金子博
+  cover: img/shueisha_14
+
+- title: シナ人の苦悶
+  author:
+    訳: 石川湧
+  affil: B000JB1ILU
+  cover: img/shueisha_11
+
+- title: インド王妃の遺産
+  author:
+    訳: 中村真一郎
+  affil: B000JB1ILK
+  cover: img/shueisha_12
+
+- title: 月世界旅行
+  author:
+    訳: 鈴木力衛
+  affil: B000JB1IME
+  cover: img/shueisha_9
+
+- title: 悪魔の発明
+  author:
+    訳: 江口清
+  affil: B000JB1IM4
+  cover: img/shueisha_10
+
+- title: 気球に乗って五週間
+  author:
+    訳: 手塚伸一
+  affil: B000JB1IMY
+  cover: img/shueisha_7
+
+- title: 地底の冒険
+  author:
+    訳: 川村克己
+  affil: B000JB1IMO
+  cover: img/shueisha_8
+
+- title: 二年間のバカンス
+  author:
+    訳: 横塚光雄
+  affil: B000JB1INI
+  cover: img/shueisha_5
+
+- title: カルパチアの城
+  author:
+    訳: 安東次男
+  affil: B000JB1IN8
+  cover: img/shueisha_6
+
+- title: 征服者ロビュール
+  author:
+    訳: 手塚伸一
+  cover: img/shueisha_3
+
+- title: 皇帝の密使
+  author:
+    訳: 新庄嘉章
+  affil: B000JB1INS
+  cover: img/shueisha_4
+
+- title: 八十日間世界一周
+  author:
+    訳: 田辺貞之助
+  cover: img/shueisha_1
+
+- title: 海底二万里
+  author:
+    訳: 江口清
+  cover: img/shueisha_2

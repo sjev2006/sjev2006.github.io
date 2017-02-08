@@ -30,3 +30,9 @@
 
 - before: ' &raquo;'
   after: '<span class="punct"> &raquo;</span>'
+
+- before: '---'
+  after: '&mdash;'
+
+- before: '--'
+  after: '&ndash;'

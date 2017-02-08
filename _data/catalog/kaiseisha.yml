@@ -1,0 +1,56 @@
+name: 偕成社文庫
+description: 発行日の新しい順に掲載しています。ここに掲載している本は児童書レーベルですがおおむね完訳版です。
+catalog:
+- title: 神秘の島〈第1部〉
+  author:
+    訳: 大友徳明
+  affil: 4036513206
+  cover: 51138NYA93L
+
+- title: 神秘の島〈第2部〉
+  author:
+    訳: 大友徳明
+  affil: 4036513303
+  cover: 51R35ZG7RSL
+
+- title: 神秘の島〈第3部〉
+  author:
+    訳: 大友徳明
+  affil: 4036513400
+  cover: 517S08ESMYL
+
+- title: 海底二万里〈上〉
+  author:
+    訳: 大友徳明
+  affil: 4036523600
+  cover: 5151D7PSM7L
+
+- title: 海底二万里〈中〉
+  author:
+    訳: 大友徳明
+  affil: 4036523708
+  cover: 511YVAPB43L
+
+- title: 海底二万里〈下〉
+  author:
+    訳: 大友徳明
+  affil: 4036523805
+  cover: 51MJ47JF4KL
+
+- title: 二年間の休暇〈上〉十五少年漂流記
+  author:
+    訳: 大友徳明
+  affil: 4036520202
+  cover: 51K3I6puOYL
+
+- title: 二年間の休暇〈下〉十五少年漂流記
+  author:
+    訳: 大友徳明
+  affil: 403652030X
+  cover: 51F7VSCVJRL
+
+- title: 地底旅行
+  author:
+    訳: 石川湧・石川布美
+  affil: 4036519905
+  cover: 51DZTCGZAHL

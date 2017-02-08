@@ -1,0 +1,140 @@
+name: その他の出版社
+description: 発行日の新しい順に掲載しています。ここに掲載している本は、（断り書きのあるものを除き）おおむね完訳版です。角川文庫はカバーに映画のヴィジュアルを使用しているものがありますが、映画版のノベライズではありません。
+catalog:
+- title: 地底旅行（光文社古典新訳文庫）
+  author:
+    訳: 高野優
+  affil: 4334752772
+  cover: 41y6sI6ISdL
+
+- title: ジャンガダ
+  author:
+    訳: 安東次男
+  affil: 4892570877
+  cover: 51OlDKuHMOL
+
+- title: 永遠のアダム
+  author:
+    訳: 江口清
+  affil: 4892570842
+  cover: 51s0m7mPZmL
+
+- title: 緑の光線
+  author:
+    訳: 中村三郎・小高美保
+  affil: 4892571075
+  cover: 61h0Fdm0i8L
+
+- title: 黒いダイヤモンド
+  author:
+    訳: 新庄嘉章
+    特別寄稿エッセイ: 小野耕世
+  affil: 4892570893
+  cover: 514idVid8fL
+
+- title: 海底二万海里〈上〉（角川文庫）
+  author:
+    訳: 花輪莞爾
+  affil: 4042022103
+  cover: 51HKKLzZ7RL
+
+- title: 海底二万海里〈下〉（角川文庫）
+  author:
+    訳: 花輪莞爾
+  affil: 4042022111
+  cover: 51W%2B7M8HkZL
+
+- title: 八十日間世界一周〈上〉（光文社古典新訳文庫）
+  author:
+    訳: 高野優
+  affil: 4334751822
+  cover: 51fCCiMi3fL
+
+- title: 八十日間世界一周〈下〉（光文社古典新訳文庫）
+  author:
+    訳: 高野優
+  affil: 4334751830
+  cover: 51j5e8YG%2BaL
+
+- title: 地底旅行（角川文庫）
+  author:
+    訳: 石川湧
+  affil: 404202212X
+  cover: 510YR2UyP%2BL
+
+- title: 80日間世界一周〈上〉（風呂で読む文庫100選）
+  author:
+    訳: Sogo
+  affil: 4861970423
+  cover: 51PCPV1NJ2L
+
+- title: 80日間世界一周〈下〉（風呂で読む文庫100選）
+  author:
+    訳: Sogo
+  affil: 4861970431
+  cover: 51AT1T39Z7L
+
+- title: グラント船長の子どもたち〈上〉
+  author:
+    訳: 大久保和郎
+  affil: 4835441125
+  cover: 5174FXRPSXL
+
+- title: グラント船長の子どもたち〈下〉
+  author:
+    訳: 大久保和郎
+  affil: 4835441133
+  cover: 51ZJ09M40YL
+
+- title: 八十日間世界一周（角川文庫）
+  author:
+    訳: 江口清
+  affil: 404202209X
+  cover: 51RJ3A69QTL
+
+- title: 南十字星（中公文庫）
+  author:
+    訳: 曾根元吉
+  affil: 4122000394
+
+- title: 月世界旅行［詳注版］（ちくま文庫）
+  author:
+    注釈: W．J．ミラー
+    訳: 高山宏
+  affil: 4480034978
+  cover: 51K1Z1ECJ2L
+
+- title: 地軸変更計画
+  author:
+    訳: 榊原晃三
+  note: 表題作のほか短編「西暦2889年・アメリカの新聞王の一日」を収録。
+  affil: 4883094227
+
+- title: 二十世紀のパリ
+  author:
+    訳: 榊原晃三
+  affil: 4087732177
+  cover: 3138932NWAL
+
+- title: 20世紀のパリ
+  author:
+    訳: 菊地有子
+  affil: 4893090976
+  cover: 51uKyNLOVQL
+
+- title: 少年船長の冒険（角川文庫）
+  author:
+    訳: 土居寛之・荒川浩充
+  note: 抄訳
+  affil: B000J7UU1I
+  cover: 512w2ZkbNhL
+
+- title: 地の果ての燈台（角川文庫）
+  author:
+    訳: 大友徳明
+
+- title: 悪魔の発明（角川文庫）
+  author:
+    訳: 大久保和郎
+  note: 表題作のほか「氷海越冬譚」収録。
+  affil: B000JA4N3Q

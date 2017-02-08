@@ -1,19 +1,3 @@
-div.book-data{
- padding-bottom:1em;
-}
-div.book-data>ul{
- display:table-cell;
- vertical-align:top;
- min-height:180px;
-}
-div.book-data>a{
- display:table-cell;
- vertical-align:top;
- margin-bottom:1em;
-}
-div.book-data img{
- width:100px;
-}
 
 .side-list{
  width:100px;

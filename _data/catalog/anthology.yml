@@ -1,0 +1,31 @@
+name: アンソロジー
+description: 発行日の新しい順に掲載しています。
+catalogue:
+- title: 羊の物語：眠くならないヒツジのアンソロジー
+  note: 「カルパチアの城」（安東次男訳）抄録。
+  affil: 4880081442
+  cover: 51u5IHuv1ZL
+
+- title: ［新編］魔法のお店（ちくま文庫）
+  author:
+    編: 荒俣宏
+  note: 短編「ザカリウス親方」 （窪田般彌訳）収録。
+  affil: 4480023461
+
+- title: ドラキュラドラキュラ：吸血鬼小説集（河出文庫）
+  author:
+    編: 種村季弘
+  note: 「カルパチアの城」（安東次男訳）抄録。
+  affil: 4309460240
+  cover: 51ORYipsPRL
+
+- title: 海外SF傑作選〈8〉華麗なる幻想
+  author:
+    編: 福島正実
+  note: 短編「2889年」（村上啓夫訳）収録。
+  affil: B000J8U3V4
+  cover: 51qO0gS%2BglL
+
+- title: 世界SF全集〈31〉世界のSF古典編
+  note: 短編「2889年」（村上啓夫訳）収録。
+  affil: B000J98C02
