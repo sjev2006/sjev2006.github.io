@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+</head>
+<body>
+
+{% capture html %}
+<div class="header">
+<a href="./">{{ site.home }}</a>&gt;{{ page.title }}
+</div>
+
+<div class="side fixed">{% assign x = 1809 %}
+<ul>{% for itemi in site.data.biographie %}{% assign y = itemi.first %}{% if y > x %}{% assign x = x | plus: 10 %}
+  <li><a href="#an{{ y }}">{{ x | minus: 9 }}〜{{ x }}年</a></li>{% endif %}{% endfor %}
+</ul>
+</div>
+
+<div class="main">
+<h1>{{ page.title }}</h1>
+
+{% if page.epigraph %}
+{% assign epiarray = site.data.epigraph[page.epigraph] %}
+{% assign epiquote = epiarray.quote | newline_to_br | strip_newlines | split: '<br />' %}
+<blockquote class="epigraph">{% for itemi in epiquote %}
+  <p>{{ itemi }}</p>{% endfor %}
+  <p>──『{{ epiarray.source }}』</p>
+</blockquote>
+{% endif %}
+
+<dl class="history">{% for itemi in site.data.biographie %}
+  <dt id="an{{ itemi.first }}">{{ itemi.first }}年</dt>
+  <dd>{% for itemii in itemi.last %}{{ itemii | markdownify | strip_newlines }}{% endfor %}</dd>{% endfor %}
+</dl>
+
+<ul class="signature">
+  <li>（作成：{{ page.writer }}）</li>
+</ul>
+
+</div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
+
+</body>
+</html>
