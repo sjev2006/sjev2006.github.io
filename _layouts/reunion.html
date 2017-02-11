@@ -39,16 +39,15 @@
 {% assign catname = catarray[0] %}{% for itemii in site.data.reunion[itemi.first] %}
 <h3>{{ itemii.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</h3>
 {% if itemii.summary %}{{ itemii.summary | markdownify | strip_newlines }}{% endif %}
-<ul>{% for itemiii in itemii.detail %}{% assign arrayiii = itemiii | newline_to_br | strip_newlines | split: '<br />' %}{% assign n = arrayiii.size | minus: 1 %}{% if n == 0 %}
-  <li>{{ arrayiii[0] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% else %}
-  <li>{{ arrayiii[0] }}
-    <ul>{% for i in (1..n) %}
-      <li>{{ arrayiii[i] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+<ul>{% for itemiii in itemii.detail %}{% if itemiii.first %}
+  <li>{{ itemiii.first[0] }}
+    <ul>{% for itemiv in itemiii.first[1] %}
+      <li>{{ itemiv | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
     </ul>
-  </li>{% endif %}{% endfor %}
+  </li>{% else %}
+  <li>{{ itemiii | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endif %}{% endfor %}
 </ul>
-{% endfor %}
-{% endfor %}
+{% endfor %}{% endfor %}
 
 </div>
 {% endcapture %}
