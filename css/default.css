@@ -255,6 +255,21 @@ li{
  margin: 0px;
  padding: 0px;
 }
+ul.footnote{
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+}
+ul.footnote p{
+ margin: 0px;
+ font-size: 11px;
+ line-height: 16px;
+}
+hr.footnote{
+ width: 200px;
+ margin-left: 0px;
+ text-align: left;
+}
 dl.history dt{
  display: block;
  width: 100px;
@@ -271,8 +286,32 @@ dl.history dd{
  border-color: #36c;
  border-width: 1px 0px 0px 0px;
 }
-dd p{
+dl.question dt{
+ display: block;
+ margin: 0px;
+ padding: 2px;
+ background-color: #9cf;
+ font-weight: normal;
+}
+dl.question dd{
+ display: block;
+ margin: -1px 0px 20px 0px;
+ padding: 2px;
+ border-style: solid;
+ border-color: #9cf;
+ border-width: 1px;
+}
+dt p:first-child{
  margin-top: 0px;
+}
+dt p:last-child{
+ margin-bottom: 0px;
+}
+dd p:first-child{
+ margin-top: 0px;
+}
+dd p:last-child{
+ margin-bottom: 0px;
 }
 
 pre{
@@ -290,7 +329,7 @@ img.right{
  text-align: right;
 }
 hr{
- color: #48c;
+ height: 1px;
 }
 
 .left{

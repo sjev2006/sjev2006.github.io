@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="./css/default.css" media="all">
+<title>{{ page.title }} - {{ site.society }}</title>
+</head>
+<body>
+
+{% capture html %}
+<div class="header">
+<a href="./">{{ site.home }}</a>&gt;{{ page.title }}
+</div>
+
+<div class="main">
+<h1>{{ page.title }}</h1>
+
+{% if page.epigraph %}
+{% assign epiarray = site.data.epigraph[page.epigraph] %}
+{% assign epiquote = epiarray.quote | newline_to_br | strip_newlines | split: '<br />' %}
+<blockquote class="epigraph">{% for itemi in epiquote %}
+  <p>{{ itemi }}</p>{% endfor %}
+  <p>──『{{ epiarray.source }}』</p>
+</blockquote>
+{% endif %}
+
+<dl class="question">{% assign i = 0 %}{% assign ftn = 0 %}{% assign ftnlines = '' %}{% for itemi in site.data.question %}{% assign i = i | plus: 1 %}{% assign qi = i | prepend: '【問' | append: '】' %}
+  <dt id="q{{ i }}">{{ itemi.question | prepend: qi | markdownify | strip_newlines }}</dt>
+  <dd>{% for itemii in itemi.answer %}{% assign arrayii = itemii | split: '※' %}{% assign strii = arrayii[0] %}{% assign s = arrayii.size | minus: 1 %}{% for j in (1..s) %}{% assign ftn = ftn | plus: 1 %}{% capture ftnstr %}<sup id="ref{{ ftn }}" title="{{ itemi.footnote }}"><a href="#ftn{{ ftn }}">&dagger;{{ ftn }}</a></sup>{% endcapture %}{% capture strii %}{{ strii }}{{ ftnstr }}{{ arrayii[j] }}{% endcapture %}{% endfor %}{{ strii | prepend: '【答】' | markdownify | strip_newlines }}{% endfor %}</dd>{% capture ftnlines %}{{ ftnlines }}{% if itemi.footnote %}{% if ftnlines != '' %}|{% endif %}{{ itemi.footnote }}{% endif %}{% endcapture %}{% endfor %}
+</dl>
+
+<hr class="footnote"/>
+<ul class="footnote">{% assign ftnarray = ftnlines | split: '|' %}{% for i in (1..ftnarray.size) %}{% assign j = i | minus: 1 %}{% capture anchor %}<a href="#ref{{ i }}">&dagger;{{ i }}</a>&nbsp;{% endcapture %}
+  <li id="ftn{{ i }}">{{ ftnarray[j] | prepend: anchor | markdownify | strip_newlines }}</li>{% endfor %}
+</ul>
+
+</div>
+{% endcapture %}
+{% for itemi in site.data.replace %}
+{% assign html = html | replace: itemi.before, itemi.after %}
+{% endfor%}
+{{ html }}
+
+</body>
+</html>
