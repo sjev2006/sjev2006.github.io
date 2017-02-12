@@ -156,9 +156,11 @@ div.side{
  padding: 0px;
  list-style-type: none;
 }
-.fixed{
- position: fixed;
- top: 32px;
+@media screen and (min-device-width: 8in){
+ .fixed{
+  position: fixed;
+  top: 32px;
+ }
 }
 .sidelist{
  width: 100px;
