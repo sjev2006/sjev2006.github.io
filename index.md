@@ -9,10 +9,13 @@ side_image: lune039.jpg
 ## 目次
 
 - [設立の辞](./fond.html)
-- [入会のご案内](./entree.html)
-- [研究会会則](./regle.html)
-- [例会および総会のご案内](./reunion.html)
-- [会誌「Excelsior!」](./excelsior.html)
-- [ニューズレター「Courrier du czar」](./czar.html)
+- 研究会について
+  - [入会のご案内](./entree.html)
+  - [研究会会則](./regle.html)
+  - [例会および総会のご案内](./reunion.html)
+  - [会誌「Excelsior!」](./excelsior.html)
+  - [ニューズレター「Courrier du czar」](./czar.html)
+- ジュール・ヴェルヌについて
+  - [略年譜](./biographie.html)
 - [ブログ「vernolog」](http://vernolog.seesaa.net/)
 - [ヴェルヌ書店](./livre/)
