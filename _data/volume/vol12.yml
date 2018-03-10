@@ -1,0 +1,113 @@
+category:
+  dossier:
+  - ja: 特集 カニバリズム
+    fr: "Dossier : le cannibalisme"
+  divers:
+  - ja: 自由投稿
+    fr: "Contributions diverses"
+
+dossier:
+- title:
+  - ja: 読書会『チャンセラー号』
+    fr: "Table ronde : relire Le Chancellor"
+  page: 4
+
+- title:
+  - ja: 榊原晃三訳『チャンセラー号の筏』誤訳・不適切箇所一覧
+    fr: "La liste des erreurs dans la traduction japonaise du Chancellor"
+  author:
+  - ja: 石橋正孝
+    fr: "Masataka Ishibashi"
+  page: 54
+
+- title:
+  - ja: 七つの迷宮をめぐって  文学的カニバリスム試論
+    fr: "Autour des sept labyrinthes : essai sur le cannibalisme litt&erai"
+  author:
+  - ja: 島村山寝
+    fr: "Sanshin Shimamura"
+  page: 65
+
+divers:
+- title:
+  - ja: 名前のない受容史│ 森田思軒『無名氏』から『呪の家名』まで:附・一九〇六年本郷座『無名氏』上演資料集
+    fr: "Histoire de la r&eception sans nom: de M. Sans-nom de Shiken Morita au Nom de famille maudit"
+  author:
+  - ja: 藤元直樹
+    fr: "Naoki Fujimoto"
+  page: 90
+
+- title:
+  - ja: 『失われた時を求めて』と『ヴィルヘルム・シュトーリッツの秘密』  あるいは反ユダヤ主義と反ドイツ感情をめぐる「横断線」と「器官なき身体」
+    fr: "A la recherche du temps perdu et le Secret de Wilhelm Storitz ou la &laquo; transversalit&e &raquo; autour de l&rsquo;antidreyfusisme et le&laquo;corps sans organes&raquo;contre l&rsquo;antigermanisme"
+  author:
+  - ja: 荒原邦博
+    fr: "Kunihiro Arahara"
+  page: 112
+
+divers:
+- title:
+  - ja: ヴェルヌと鉱物 地底旅行編
+    fr: "Verne et minerai : Voyage au centre de la Terre"
+  author:
+  - ja: 長田直華
+    fr: "Naoka Osada"
+  page: 131
+
+- title:
+  - ja: ヴェルヌ作品から、常に気になっている疑問
+    fr: "Quelques questions sur les romans verniens"
+  author:
+  - ja: 新須憲一
+    fr: "Kenichi Shinsu"
+  page: 134
+
+- title:
+  - ja: 「書評」『レのシャープ君とミのフラットさん』［新島進訳、大学書林、二〇一七年］
+    fr: "Compte rendu : M. R&e-Di&egrave;ze et Mlle Mi-Bmol par Jules Verne"
+  author:
+  - ja: 植草康浩
+    fr: "Yasuhiro Uekusa"
+  page: 136
+
+- title:
+  - ja: 「書評」『名を捨てた家族』［大矢タカヤス訳、彩流社、二〇一七年］
+    fr: "Compte rendu : Famille-sans-nom par Jules Verne"
+  author:
+  - ja: 坪井宣明
+    fr: "Nobuaki Tsuboi"
+  page: 137
+
+- title:
+  - ja: 「書評」ジェームズ・ロリンズ『地底世界』上・下［扶桑社文庫、二〇一五年］
+    fr: "Compte rendu : Subterranean by James Rollins"
+  author:
+  - ja: 大崎達也
+    fr: "Tatsuya Osaki"
+  page: 139
+
+- title:
+  - ja: 「書評」『声と文学 拡張する身体の誘惑』［塚本昌則・鈴木雅雄編、平凡社、二〇一七年］
+    fr: "Compte rendu : La voix et la litt&erature"
+  author:
+  - ja: 島村山寝
+    fr: "Sanshin Shimamura"
+  page: 140
+
+- title:
+  - ja: 六助とソランジュの「魅惑のヴェルヌ」 いかにして、われわれは〈驚異の旅〉日本語版を実現させるか？：第七回『ブラニカン夫人』
+    fr: "Verne attirant ou pas encore traduit, dialogue par Locusuke et Solange: Comment r&eacute;alise-t-on la version japonaise de la collection de Voyages extraordinaires ? &eacute;pisode 7. Mistress Branican"
+  author:
+  - ja: ソランジュと六助
+    fr: "Locusuke et Solange"
+  page: 142
+
+- title:
+  - ja: 入会案内・活動報告
+    fr: "Adh&eacute;sion / La vie de l&rsquo;association"
+  page: 157
+
+- title:
+  - ja: 編集後記
+    fr: "Editorial"
+  page: 158
