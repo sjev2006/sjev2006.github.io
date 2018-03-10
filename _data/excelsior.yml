@@ -4,10 +4,17 @@ category:
   past: 在庫なし
 
 future:
-- volume: 12
-  date: 2017年秋
+- volume: 13
+  date: 2018年秋
 
 current:
+- volume:12
+  date: 2017-12-16
+  contents:
+  - 特集：カニバリズム
+  - 体裁：A5判、158ページ
+  - 頒布価格：1000円
+
 - volume: 11
   date: 2016-11-23
   contents:
