@@ -2,7 +2,7 @@ category:
   future: 発行予定
   current: 既刊
   past: 在庫なし
-
+ 
 future:
 - volume: 13
   date: 2018年秋
@@ -73,7 +73,7 @@ past:
   contents:
   - 特集：アンドレ・ローリー没後百年
   - 体裁：A5判、208ページ
- 
+
 - volume: 3
   date: 2009-03-31
   contents:
