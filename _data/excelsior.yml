@@ -4,10 +4,17 @@ category:
   past: 在庫なし
  
 future:
-- volume: 13
-  date: 2018年秋
+- volume: 14
+  date: 2019年秋
 
 current:
+- volume: 13
+  date: 2018-11-24
+  contents:
+  - 特集：カルパチアの城
+  - 体裁：A5判、190ページ
+  - 頒布価格：1000円
+  
 - volume: 12
   date: 2017-12-16
   contents:
@@ -53,13 +60,6 @@ current:
   - 体裁：A5判、166ページ
   - 頒布価格：1000円
 
-- volume: 6
-  date: 2012-04-29
-  contents:
-  - 特集：神秘の島
-  - 体裁：A5判、176ページ
-  - 頒布価格：1000円
-
 - volume: 5
   date: 2011-05-31
   contents:
@@ -68,6 +68,13 @@ current:
   - 頒布価格：1000円
 
 past:
+- volume: 6
+  date: 2012-04-29
+  contents:
+  - 特集：神秘の島
+  - 体裁：A5判、176ページ
+  - 頒布価格：1000円
+  
 - volume: 4
   date: 2010-04-30
   contents:
