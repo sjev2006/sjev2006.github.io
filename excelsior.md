@@ -15,11 +15,11 @@ title: 会誌「Excelsior!」
 以下のお店では、お手に取って会誌をお買い求め頂けます（販売価格1000円）。
 
 - [中野ブロードウェイ タコシェ](http://tacoche.com/)（ミニコミ・自費出版物メインの書店）
-  - 5号・6号・7号・8号・9号・10号
+  - 5号・7号・8号・9号・10号・11号・12号・13号・14号
   - 通信販売あり→[こちらから](http://taco.shop-pro.jp/?mode=srh&sort=n&cid=&keyword=Excelsior)
 
 - [西荻窪 盛林堂](http://d.hatena.ne.jp/seirindou_syobou/)（古書店）
-  - 5号・6号・7号・8号・9号・10号
+  - 5号・7号・8号・9号・10号11号・12号・13号・14号
   - 通信販売あり→[こちらから](http://seirindousyobou.cart.fc2.com/?word=Excelsior)
 
 ### 当会による通信販売
