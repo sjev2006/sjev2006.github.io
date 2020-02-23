@@ -4,10 +4,18 @@ category:
   past: 在庫なし
  
 future:
-- volume: 14
-  date: 2019年秋
+- volume: 15
+  date: 2020秋発刊予定
+  
 
 current:
+- volume: 14
+  date: 2019-11-22
+  contents:
+  - 特集：二十世紀のパリ
+  - 体裁：A5判、230ページ
+  - 頒布価格：1000円
+
 - volume: 13
   date: 2018-11-24
   contents:
